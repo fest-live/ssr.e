@@ -36,7 +36,7 @@ export const buildDemo = (hub: ReactiveHub): PageOptions => {
                 ]),
                 E("ul", {}, M(items, (item) => E("li", {}, item))),
                 H`<p class="ssre-server" data-note=${ssre.server.get("label")}>${ssre.server.get("label")}</p>`,
-                H`<p class="ssre-client" data-accent=${ssre.client.get("accent")}>client slot</p>`,
+                H`<p class="ssre-client" data-accent=${ssre.client.get("accent", "pending")}>client slot</p>`,
                 picture("data:image/svg+xml," + encodeURIComponent(`<svg xmlns="http://www.w3.org/2000/svg" width="640" height="120"><rect fill="#e8e8e8" width="100%" height="100%"/><text x="50%" y="54%" text-anchor="middle" font-size="22" fill="#333">SSR.E</text></svg>`), { alt: "Demo", widths: [] }),
             ]);
         },

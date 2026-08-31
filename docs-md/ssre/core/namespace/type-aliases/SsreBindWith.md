@@ -1,4 +1,4 @@
-[**@fest-lib/ssre v0.1.1**](../../../../README.md)
+[**@fest-lib/ssre v0.1.2**](../../../../README.md)
 
 ***
 
@@ -10,7 +10,7 @@
 type SsreBindWith = (el, prop, value, handler) => void;
 ```
 
-Defined in: ssre/core/namespace.ts:25
+Defined in: ssre/core/namespace.ts:26
 
 ## Parameters
 

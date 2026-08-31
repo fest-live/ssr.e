@@ -1,4 +1,4 @@
-[**@fest-lib/ssre v0.1.1**](../../../../README.md)
+[**@fest-lib/ssre v0.1.2**](../../../../README.md)
 
 ***
 
@@ -10,7 +10,7 @@
 const ssre: object;
 ```
 
-Defined in: ssre/core/namespace.ts:161
+Defined in: ssre/core/namespace.ts:163
 
 ## Type Declaration
 
@@ -23,7 +23,7 @@ client: object;
 #### client.get()
 
 ```ts
-get(name): any;
+get(name, fallback?): any;
 ```
 
 ##### Parameters
@@ -31,6 +31,10 @@ get(name): any;
 ###### name
 
 `string`
+
+###### fallback?
+
+`any`
 
 ##### Returns
 

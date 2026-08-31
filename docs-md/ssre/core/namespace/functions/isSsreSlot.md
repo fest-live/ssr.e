@@ -1,4 +1,4 @@
-[**@fest-lib/ssre v0.1.1**](../../../../README.md)
+[**@fest-lib/ssre v0.1.2**](../../../../README.md)
 
 ***
 
@@ -10,7 +10,7 @@
 function isSsreSlot(value): value is SsreSlot;
 ```
 
-Defined in: ssre/core/namespace.ts:27
+Defined in: ssre/core/namespace.ts:28
 
 ## Parameters
 

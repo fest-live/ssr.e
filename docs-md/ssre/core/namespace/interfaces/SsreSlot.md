@@ -1,4 +1,4 @@
-[**@fest-lib/ssre v0.1.1**](../../../../README.md)
+[**@fest-lib/ssre v0.1.2**](../../../../README.md)
 
 ***
 
@@ -17,6 +17,16 @@ Defined in: ssre/core/namespace.ts:19
 ```
 
 Defined in: ssre/core/namespace.ts:20
+
+***
+
+### fallback?
+
+```ts
+optional fallback?: any;
+```
+
+Defined in: ssre/core/namespace.ts:23
 
 ***
 

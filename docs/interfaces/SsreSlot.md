@@ -1,4 +1,4 @@
-[**@fest-lib/ssre API Documentation v0.1.1**](../README.md)
+[**@fest-lib/ssre API Documentation v0.1.2**](../README.md)
 
 ***
 
@@ -31,3 +31,11 @@ Defined in: ssre/core/namespace.ts:21
 > **name**: `string`
 
 Defined in: ssre/core/namespace.ts:22
+
+***
+
+### fallback?
+
+> `optional` **fallback?**: `any`
+
+Defined in: ssre/core/namespace.ts:23

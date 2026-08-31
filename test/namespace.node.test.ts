@@ -10,6 +10,12 @@ test("H interpolates ssre.client.get as a client slot", () => {
     assert.equal(scenario.clientSlots?.[0]?.attr, "data-x");
 });
 
+test("ssre.client.get paints a default until client.set", () => {
+    const { html } = renderView(() => H`<div data-x=${ssre.client.get("ref", "wait")}></div>`);
+    assert.match(html, /data-x="wait"/);
+    assert.match(html, /data-ssre-client="ref"/);
+});
+
 test("ssre.server.set/get bind through the hub", () => {
     const hub = createHub();
     ssre.attach(hub);

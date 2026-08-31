@@ -20,6 +20,7 @@ export interface SsreSlot {
     [$ssreSlot]: true;
     side: SsreSide;
     name: string;
+    fallback?: any;
 }
 
 export type SsreBindWith = (el: any, prop: string, value: any, handler: (el: any, prop: string, value: any) => void) => void;
@@ -27,10 +28,11 @@ export type SsreBindWith = (el: any, prop: string, value: any, handler: (el: any
 export const isSsreSlot = (value: any): value is SsreSlot =>
     !!value && typeof value === "object" && value[$ssreSlot] === true;
 
-const makeSlot = (side: SsreSide, name: string): SsreSlot => ({
+const makeSlot = (side: SsreSide, name: string, fallback?: any): SsreSlot => ({
     [$ssreSlot]: true,
     side,
     name: String(name),
+    fallback,
 });
 
 type NsBag = {
@@ -175,10 +177,10 @@ export const ssre = {
     },
 
     client: {
-        get(name: string): any {
+        get(name: string, fallback?: any): any {
             const bag = bagOf();
             if (bag.clientRefs.has(name)) return bag.clientRefs.get(name);
-            return makeSlot("client", name);
+            return makeSlot("client", name, fallback);
         },
         set(name: string, ref: any): any {
             const bag = bagOf();

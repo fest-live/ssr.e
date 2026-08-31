@@ -51,7 +51,9 @@ const bindValue = (node: VNode, kind: VNode["bindings"][number]["kind"], value: 
             ctx.clientSlots.push({ name: value.name, id, kind, attr: name });
             const prev = node.dataset["ssre-client"];
             node.dataset["ssre-client"] = prev && prev !== value.name ? `${prev} ${value.name}` : value.name;
-            return "";
+            const fallback = value.fallback;
+            if (fallback == null) return "";
+            return hasValue(fallback) ? getValue(fallback) : fallback;
         }
         const store = ctx.hub.stores.get(value.name) ?? ctx.hub.store(value.name, { value: "" });
         return bindValue(node, kind, store, name);
