@@ -1,0 +1,11 @@
+[**@fest-lib/ssre API Documentation v0.1.0**](../README.md)
+
+***
+
+[@fest-lib/ssre API Documentation](../globals.md) / BindingKind
+
+# Type Alias: BindingKind
+
+> **BindingKind** = `"text"` \| `"attr"` \| `"prop"` \| `"class"` \| `"style"` \| `"dataset"` \| `"value"` \| `"checked"` \| `"html"` \| `"cssvar"`
+
+Defined in: ssre/node/types.ts:16

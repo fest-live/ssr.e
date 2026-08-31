@@ -1,0 +1,51 @@
+{
+    "include": [
+        "./src/**/*.ts",
+        "./test/**/*.ts"
+    ],
+    "exclude": [
+        "./dist/**/*",
+        "./externals/**/*"
+    ],
+    "compilerOptions": {
+        "rootDir": "../",
+        "outDir": "./dist/",
+        "paths": {
+            "@fest-lib/ssre": [
+                "./src/index.ts"
+            ],
+            "@fest-lib/object": [
+                "../object.ts/src/index.ts"
+            ],
+            "@fest-lib/core": [
+                "../core.ts/src/index.ts"
+            ],
+            "@fest-lib/uniform": [
+                "../uniform.ts/src/index.ts"
+            ]
+        },
+        "target": "ESNext",
+        "module": "NodeNext",
+        "moduleResolution": "NodeNext",
+        "lib": [
+            "ESNext",
+            "DOM"
+        ],
+        "esModuleInterop": true,
+        "strict": true,
+        "forceConsistentCasingInFileNames": true,
+        "allowJs": true,
+        "allowSyntheticDefaultImports": true,
+        "allowImportingTsExtensions": true,
+        "allowArbitraryExtensions": true,
+        "noImplicitAny": false,
+        "declaration": true,
+        "declarationMap": true,
+        "inlineSources": true,
+        "inlineSourceMap": true,
+        "experimentalDecorators": true,
+        "noEmit": true,
+        "noEmitOnError": true
+    },
+    "compileOnSave": false
+}

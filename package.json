@@ -1,0 +1,142 @@
+{
+    "name": "@fest-lib/ssre",
+    "description": "fest-lib SSR.E: backend-first H/E HTML, object.ts reactivity, Fastify + channel",
+    "version": "0.1.1",
+    "license": "BSD-3-Clause",
+    "type": "module",
+    "sideEffects": false,
+    "engines": {
+        "node": ">=20"
+    },
+    "publishConfig": {
+        "access": "public"
+    },
+    "repository": {
+        "type": "git",
+        "url": "git+https://github.com/fest-live/ssr.e.git"
+    },
+    "bugs": {
+        "url": "https://github.com/fest-live/ssr.e/issues"
+    },
+    "homepage": "https://github.com/fest-live/ssr.e#readme",
+    "keywords": [
+        "fest",
+        "fest-lib",
+        "ssr",
+        "fastify",
+        "reactive",
+        "html",
+        "typescript"
+    ],
+    "files": [
+        "dist",
+        "LICENSE"
+    ],
+    "main": "./dist/ssre.js",
+    "module": "./dist/ssre.js",
+    "exports": {
+        ".": {
+            "import": "./dist/ssre.js",
+            "default": "./dist/ssre.js"
+        },
+        "./package.json": "./package.json",
+        "./dist/index.js": "./dist/ssre.js",
+        "./index.js": "./dist/ssre.js",
+        "./node": "./src/node.ts",
+        "./fastify": "./src/ssre/server/fastify.ts",
+        "./vite": "./src/ssre/vite/plugin.ts",
+        "./client": "./src/ssre/client/hydrate.ts",
+        "./fs": "./src/ssre/fs/backend.ts",
+        "./css": "./src/ssre/css/vars.ts",
+        "./html-dom": "./src/ssre/node/html-dom.ts",
+        "./src/ssre/node/jsx-runtime": "./src/ssre/node/jsx-runtime.ts",
+        "./src/ssre/node/jsx-dev-runtime": "./src/ssre/node/jsx-runtime.ts"
+    },
+    "dependencies": {
+        "@fest-lib/core": ">=0.1.0",
+        "@fest-lib/object": ">=0.1.0"
+    },
+    "peerDependencies": {
+        "@fest-lib/core": ">=0.1.0",
+        "@fest-lib/object": ">=0.1.0",
+        "@fest-lib/uniform": ">=0.1.0",
+        "fastify": ">=4.0.0",
+        "socket.io": ">=4.0.0",
+        "socket.io-client": ">=4.0.0",
+        "vite": ">=6.0.0",
+        "ws": ">=8.0.0",
+        "@fastify/websocket": ">=10.0.0",
+        "node-html-parser": ">=6.0.0",
+        "jsdom": ">=25.0.0",
+        "@xmldom/xmldom": ">=0.8.0",
+        "css-tree": ">=3.0.0",
+        "@napi-rs/canvas": ">=0.1.0",
+        "canvas": ">=2.0.0"
+    },
+    "peerDependenciesMeta": {
+        "@fest-lib/uniform": {
+            "optional": true
+        },
+        "fastify": {
+            "optional": true
+        },
+        "socket.io": {
+            "optional": true
+        },
+        "socket.io-client": {
+            "optional": true
+        },
+        "vite": {
+            "optional": true
+        },
+        "ws": {
+            "optional": true
+        },
+        "@fastify/websocket": {
+            "optional": true
+        },
+        "node-html-parser": {
+            "optional": true
+        },
+        "jsdom": {
+            "optional": true
+        },
+        "@xmldom/xmldom": {
+            "optional": true
+        },
+        "css-tree": {
+            "optional": true
+        },
+        "@napi-rs/canvas": {
+            "optional": true
+        },
+        "canvas": {
+            "optional": true
+        }
+    },
+    "scripts": {
+        "test": "npm run test:node",
+        "test:node": "node ./scripts/run-node-tests.mjs",
+        "test:dev": "npm run demo",
+        "dev": "npm run demo",
+        "demo": "vite --host 0.0.0.0 --config vite.config.js",
+        "watch": "vite build --watch",
+        "build": "vite build --config vite.config.js && npm run docs && npm run docs:md",
+        "build:publish": "FEST_NPM_IMPORTS=1 vite build --config vite.config.js",
+        "prepack": "npm run build:publish",
+        "preview": "vite preview",
+        "release": "PUPPETEER_SKIP_DOWNLOAD=1 npm run build:publish && npm publish --access public --ignore-scripts",
+        "publish": "node ../scripts/bump-patch-version.mjs && npm run release",
+        "docs": "typedoc ./src/index.ts --options ./typedoc.json --out ./docs --tsconfig ./tsconfig.json --excludeExternals --excludePrivate --excludeProtected --skipErrorChecking",
+        "docs:clean": "rm -rf ./docs && typedoc --options ./typedoc.json",
+        "docs:md": "typedoc --options ./typedoc.md.json",
+        "docs:md:clean": "rm -rf ./docs-md && typedoc --options ./typedoc.md.json"
+    },
+    "devDependencies": {
+        "@types/node": ">=22.8.1",
+        "typedoc": "^0.28.20",
+        "typedoc-plugin-markdown": "^4.12.0",
+        "typescript": ">=6.0.0-beta",
+        "vite": "^8.0.7"
+    }
+}

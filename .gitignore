@@ -141,3 +141,8 @@ dist
 vite.config.js.timestamp-*
 vite.config.ts.timestamp-*
 .vite/
+.tmp-tests/
+
+# WHY: typedoc copied the sibling lur.e tree here (chrome-headless-shell is 179MB).
+docs/_media/
+**/chrome-headless-shell/

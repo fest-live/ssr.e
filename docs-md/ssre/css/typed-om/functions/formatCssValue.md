@@ -1,0 +1,29 @@
+[**@fest-lib/ssre v0.1.0**](../../../../README.md)
+
+***
+
+[@fest-lib/ssre](../../../../README.md) / [ssre/css/typed-om](../README.md) / formatCssValue
+
+# Function: formatCssValue()
+
+```ts
+function formatCssValue(value, typed?): string;
+```
+
+Defined in: ssre/css/typed-om.ts:23
+
+## Parameters
+
+### value
+
+`any`
+
+### typed?
+
+  \| [`TypedOmEntry`](../../../node/types/interfaces/TypedOmEntry.md)
+  \| [`TypedOmHint`](../../../node/types/type-aliases/TypedOmHint.md)
+  \| `null`
+
+## Returns
+
+`string`

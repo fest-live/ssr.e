@@ -1,0 +1,21 @@
+[**@fest-lib/ssre API Documentation v0.1.0**](../README.md)
+
+***
+
+[@fest-lib/ssre API Documentation](../globals.md) / encodeSse
+
+# Function: encodeSse()
+
+> **encodeSse**(`msg`): `string`
+
+Defined in: ssre/server/protocol.ts:12
+
+## Parameters
+
+### msg
+
+[`ChannelMessage`](../interfaces/ChannelMessage.md)
+
+## Returns
+
+`string`
