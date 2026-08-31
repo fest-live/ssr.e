@@ -7,14 +7,16 @@
  * INVARIANT: slot lives on globalThis so Vite config graph and ssrLoadModule
  * share one context (duplicate module copies of this file must not fork state).
  */
+import { ssre } from "../core/namespace.ts";
 import { createHub, type ReactiveHub } from "../core/store.ts";
-import type { ChannelConfig, SsreBinding, SsreOnBinding, SsreScenario } from "./types.ts";
+import type { ChannelConfig, SsreBinding, SsreClientSlot, SsreOnBinding, SsreScenario } from "./types.ts";
 
 export class RenderContext {
     readonly hub: ReactiveHub;
     readonly bindings: SsreBinding[] = [];
     readonly events: SsreOnBinding[] = [];
     readonly mapped: SsreScenario["mapped"] = [];
+    readonly clientSlots: SsreClientSlot[] = [];
     channel?: ChannelConfig;
     private nodeSeq = 0;
     private actionSeq = 0;
@@ -52,6 +54,7 @@ export class RenderContext {
             bindings: this.bindings.slice(),
             events: this.events.slice(),
             mapped: this.mapped.slice(),
+            clientSlots: this.clientSlots.slice(),
             channel: this.channel ?? this.hub.channel,
         };
         this.hub.lastScenario = scenario;
@@ -82,6 +85,7 @@ export const withContext = <T>(ctx: RenderContext, fn: () => T): T => {
 export const beginRender = (hub?: ReactiveHub): RenderContext => {
     const ctx = new RenderContext(hub);
     slot().current = ctx;
+    ssre.attach(ctx.hub);
     return ctx;
 };
 

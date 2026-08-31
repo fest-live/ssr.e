@@ -1,4 +1,4 @@
-[**@fest-lib/ssre v0.1.0**](../../../../README.md)
+[**@fest-lib/ssre v0.1.1**](../../../../README.md)
 
 ***
 
@@ -6,7 +6,7 @@
 
 # Interface: RenderResult
 
-Defined in: ssre/node/render.ts:60
+Defined in: ssre/node/render.ts:63
 
 ## Properties
 
@@ -16,7 +16,7 @@ Defined in: ssre/node/render.ts:60
 context: RenderContext;
 ```
 
-Defined in: ssre/node/render.ts:63
+Defined in: ssre/node/render.ts:66
 
 ***
 
@@ -26,7 +26,7 @@ Defined in: ssre/node/render.ts:63
 html: string;
 ```
 
-Defined in: ssre/node/render.ts:61
+Defined in: ssre/node/render.ts:64
 
 ***
 
@@ -36,4 +36,4 @@ Defined in: ssre/node/render.ts:61
 scenario: SsreScenario;
 ```
 
-Defined in: ssre/node/render.ts:62
+Defined in: ssre/node/render.ts:65

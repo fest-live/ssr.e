@@ -1,4 +1,4 @@
-[**@fest-lib/ssre v0.1.0**](../../../README.md)
+[**@fest-lib/ssre v0.1.1**](../../../README.md)
 
 ***
 
@@ -12,6 +12,7 @@
 - [ChannelMessage](interfaces/ChannelMessage.md)
 - [CssVarBinding](interfaces/CssVarBinding.md)
 - [SsreBinding](interfaces/SsreBinding.md)
+- [SsreClientSlot](interfaces/SsreClientSlot.md)
 - [SsreOnBinding](interfaces/SsreOnBinding.md)
 - [SsreParams](interfaces/SsreParams.md)
 - [SsreScenario](interfaces/SsreScenario.md)

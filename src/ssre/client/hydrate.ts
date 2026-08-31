@@ -74,6 +74,10 @@ export function hydrateSsre(root?: Document | Element): void {
         else if (binding.name) el.setAttribute(binding.name, text);
     };
 
+    const nsSlot = Symbol.for("fest.ssre.ns");
+    const bag = ((globalThis as any)[nsSlot] ??= { clientSlots: [] as any[] });
+    if (Array.isArray(scenario.clientSlots)) bag.clientSlots = scenario.clientSlots;
+
     const applySet = (store: string, path: string, value: any) => {
         const snap = stores[store];
         if (snap != null && typeof snap === "object" && path && path !== "value") (snap as any)[path] = value;
@@ -85,6 +89,7 @@ export function hydrateSsre(root?: Document | Element): void {
         for (const item of scenario.cssVars || []) {
             if (item.store === store) applyCssVar(item, path && path !== "value" && item.path !== path ? readPath(store, item.path) : next);
         }
+        bag.onServerSet?.(store, path, value);
     };
 
     const keepList = (incoming: any, current: any) =>
@@ -99,12 +104,14 @@ export function hydrateSsre(root?: Document | Element): void {
             bindings: keepList(incoming.bindings, scenario.bindings),
             events: keepList(incoming.events, scenario.events),
             mapped: keepList(incoming.mapped, scenario.mapped),
+            clientSlots: keepList(incoming.clientSlots, scenario.clientSlots),
             cssVars: keepList(incoming.cssVars, scenario.cssVars),
             channel: incoming.channel ?? scenario.channel,
         };
         for (const [name, entry] of Object.entries(scenario.stores || {})) {
             stores[name] = (entry as any)?.snapshot;
         }
+        if (Array.isArray(scenario.clientSlots)) bag.clientSlots = scenario.clientSlots;
     };
 
     const send = (msg: any) => {

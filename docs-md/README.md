@@ -1,8 +1,8 @@
-**@fest-lib/ssre v0.1.0**
+**@fest-lib/ssre v0.1.1**
 
 ***
 
-# @fest-lib/ssre v0.1.0
+# @fest-lib/ssre v0.1.1
 
 ## Modules
 
@@ -11,6 +11,7 @@
 - [ssre/assets/canvas](ssre/assets/canvas/README.md)
 - [ssre/assets/picture](ssre/assets/picture/README.md)
 - [ssre/client/hydrate](ssre/client/hydrate/README.md)
+- [ssre/core/namespace](ssre/core/namespace/README.md)
 - [ssre/core/refs](ssre/core/refs/README.md)
 - [ssre/core/store](ssre/core/store/README.md)
 - [ssre/css/typed-om](ssre/css/typed-om/README.md)

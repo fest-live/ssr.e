@@ -1,4 +1,4 @@
-[**@fest-lib/ssre API Documentation v0.1.0**](../README.md)
+[**@fest-lib/ssre API Documentation v0.1.1**](../README.md)
 
 ***
 
@@ -6,7 +6,7 @@
 
 # Interface: SsreScenario
 
-Defined in: ssre/node/types.ts:98
+Defined in: ssre/node/types.ts:105
 
 ## Properties
 
@@ -14,7 +14,7 @@ Defined in: ssre/node/types.ts:98
 
 > **version**: `1`
 
-Defined in: ssre/node/types.ts:99
+Defined in: ssre/node/types.ts:106
 
 ***
 
@@ -22,7 +22,7 @@ Defined in: ssre/node/types.ts:99
 
 > **stores**: `Record`\<`string`, \{ `snapshot`: `any`; \}\>
 
-Defined in: ssre/node/types.ts:100
+Defined in: ssre/node/types.ts:107
 
 ***
 
@@ -30,7 +30,7 @@ Defined in: ssre/node/types.ts:100
 
 > **bindings**: [`SsreBinding`](SsreBinding.md)[]
 
-Defined in: ssre/node/types.ts:101
+Defined in: ssre/node/types.ts:108
 
 ***
 
@@ -38,7 +38,7 @@ Defined in: ssre/node/types.ts:101
 
 > **events**: `SsreOnBinding`[]
 
-Defined in: ssre/node/types.ts:102
+Defined in: ssre/node/types.ts:109
 
 ***
 
@@ -46,7 +46,7 @@ Defined in: ssre/node/types.ts:102
 
 > **mapped**: `object`[]
 
-Defined in: ssre/node/types.ts:103
+Defined in: ssre/node/types.ts:110
 
 #### id
 
@@ -62,11 +62,19 @@ Defined in: ssre/node/types.ts:103
 
 ***
 
+### clientSlots?
+
+> `optional` **clientSlots?**: [`SsreClientSlot`](SsreClientSlot.md)[]
+
+Defined in: ssre/node/types.ts:111
+
+***
+
 ### cssVars?
 
 > `optional` **cssVars?**: [`CssVarBinding`](CssVarBinding.md)[]
 
-Defined in: ssre/node/types.ts:104
+Defined in: ssre/node/types.ts:112
 
 ***
 
@@ -74,7 +82,7 @@ Defined in: ssre/node/types.ts:104
 
 > `optional` **typedOm?**: `Record`\<`string`, [`TypedOmEntry`](TypedOmEntry.md)\>
 
-Defined in: ssre/node/types.ts:105
+Defined in: ssre/node/types.ts:113
 
 ***
 
@@ -82,4 +90,4 @@ Defined in: ssre/node/types.ts:105
 
 > `optional` **channel?**: [`ChannelConfig`](ChannelConfig.md)
 
-Defined in: ssre/node/types.ts:106
+Defined in: ssre/node/types.ts:114

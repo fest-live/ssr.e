@@ -1,4 +1,4 @@
-[**@fest-lib/ssre API Documentation v0.1.0**](../README.md)
+[**@fest-lib/ssre API Documentation v0.1.1**](../README.md)
 
 ***
 
@@ -6,7 +6,7 @@
 
 # Interface: VNode
 
-Defined in: ssre/node/types.ts:48
+Defined in: ssre/node/types.ts:55
 
 ## Properties
 
@@ -14,7 +14,7 @@ Defined in: ssre/node/types.ts:48
 
 > **\[$ssre\]**: `true`
 
-Defined in: ssre/node/types.ts:49
+Defined in: ssre/node/types.ts:56
 
 ***
 
@@ -22,7 +22,7 @@ Defined in: ssre/node/types.ts:49
 
 > **kind**: [`SsreKind`](../type-aliases/SsreKind.md)
 
-Defined in: ssre/node/types.ts:50
+Defined in: ssre/node/types.ts:57
 
 ***
 
@@ -30,7 +30,7 @@ Defined in: ssre/node/types.ts:50
 
 > `optional` **tag?**: `string`
 
-Defined in: ssre/node/types.ts:51
+Defined in: ssre/node/types.ts:58
 
 ***
 
@@ -38,7 +38,7 @@ Defined in: ssre/node/types.ts:51
 
 > `optional` **id?**: `string`
 
-Defined in: ssre/node/types.ts:52
+Defined in: ssre/node/types.ts:59
 
 ***
 
@@ -46,7 +46,7 @@ Defined in: ssre/node/types.ts:52
 
 > **attrs**: `Record`\<`string`, `string`\>
 
-Defined in: ssre/node/types.ts:53
+Defined in: ssre/node/types.ts:60
 
 ***
 
@@ -54,7 +54,7 @@ Defined in: ssre/node/types.ts:53
 
 > **dataset**: `Record`\<`string`, `string`\>
 
-Defined in: ssre/node/types.ts:54
+Defined in: ssre/node/types.ts:61
 
 ***
 
@@ -62,7 +62,7 @@ Defined in: ssre/node/types.ts:54
 
 > **classList**: `string`[]
 
-Defined in: ssre/node/types.ts:55
+Defined in: ssre/node/types.ts:62
 
 ***
 
@@ -70,7 +70,7 @@ Defined in: ssre/node/types.ts:55
 
 > `optional` **style?**: `string`
 
-Defined in: ssre/node/types.ts:56
+Defined in: ssre/node/types.ts:63
 
 ***
 
@@ -78,7 +78,7 @@ Defined in: ssre/node/types.ts:56
 
 > **children**: [`Child`](../type-aliases/Child.md)[]
 
-Defined in: ssre/node/types.ts:57
+Defined in: ssre/node/types.ts:64
 
 ***
 
@@ -86,7 +86,7 @@ Defined in: ssre/node/types.ts:57
 
 > **bindings**: [`SsreBinding`](SsreBinding.md)[]
 
-Defined in: ssre/node/types.ts:58
+Defined in: ssre/node/types.ts:65
 
 ***
 
@@ -94,7 +94,7 @@ Defined in: ssre/node/types.ts:58
 
 > **events**: `SsreOnBinding`[]
 
-Defined in: ssre/node/types.ts:59
+Defined in: ssre/node/types.ts:66
 
 ***
 
@@ -102,7 +102,7 @@ Defined in: ssre/node/types.ts:59
 
 > `optional` **source?**: `any`
 
-Defined in: ssre/node/types.ts:60
+Defined in: ssre/node/types.ts:67
 
 ***
 
@@ -110,7 +110,7 @@ Defined in: ssre/node/types.ts:60
 
 > `optional` **mapFn?**: (`item`, `index`) => [`Child`](../type-aliases/Child.md)
 
-Defined in: ssre/node/types.ts:61
+Defined in: ssre/node/types.ts:68
 
 #### Parameters
 
@@ -132,4 +132,4 @@ Defined in: ssre/node/types.ts:61
 
 > `optional` **html?**: `string`
 
-Defined in: ssre/node/types.ts:62
+Defined in: ssre/node/types.ts:69

@@ -1,4 +1,4 @@
-[**@fest-lib/ssre v0.1.0**](../../../../README.md)
+[**@fest-lib/ssre v0.1.1**](../../../../README.md)
 
 ***
 
@@ -10,7 +10,7 @@
 function T(text): VNode;
 ```
 
-Defined in: ssre/node/E.ts:83
+Defined in: ssre/node/E.ts:97
 
 ## Parameters
 

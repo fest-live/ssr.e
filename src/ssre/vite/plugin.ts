@@ -6,6 +6,7 @@
  * Vite middleware: SSR-load page modules and serve HTML. Channel is SSE + POST
  * on the same Vite server so `npm run demo` works without Fastify.
  */
+import { ssre } from "../core/namespace.ts";
 import { renderPage, type PageOptions } from "../node/page.ts";
 import { createHub, type ReactiveHub } from "../core/store.ts";
 import { attachSse, handleChannelPost, readRequestBody } from "../server/channel.ts";
@@ -40,6 +41,7 @@ const pageFile = (pages: Record<string, string>, pathname: string): string | und
 
 export const ssreVite = (options: SsreViteOptions = {}): any => {
     const hub = options.hub ?? createHub();
+    ssre.attach(hub);
     const pages = options.pages ?? {};
     const channelPath = options.channelPath ?? "/ssre/channel";
     hub.channel = { url: channelPath, protocol: "sse" };

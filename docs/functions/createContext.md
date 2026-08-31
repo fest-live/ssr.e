@@ -1,4 +1,4 @@
-[**@fest-lib/ssre API Documentation v0.1.0**](../README.md)
+[**@fest-lib/ssre API Documentation v0.1.1**](../README.md)
 
 ***
 
@@ -8,7 +8,7 @@
 
 > **createContext**(`hub?`): [`RenderContext`](../classes/RenderContext.md)
 
-Defined in: ssre/node/context.ts:88
+Defined in: ssre/node/context.ts:92
 
 ## Parameters
 

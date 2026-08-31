@@ -9,6 +9,7 @@
 import { getValue, hasValue, isPrimitive } from "@fest-lib/core";
 import { isObservable } from "@fest-lib/object";
 import { bindNodeCss } from "../css/vars.ts";
+import { isSsreSlot } from "../core/namespace.ts";
 import { currentContext } from "./context.ts";
 import { $ssre, type Child, type SsreParams, type VNode } from "./types.ts";
 
@@ -42,6 +43,19 @@ const isBindable = (value: any): boolean => {
 };
 
 const bindValue = (node: VNode, kind: VNode["bindings"][number]["kind"], value: any, name?: string): any => {
+    if (isSsreSlot(value)) {
+        const ctx = currentContext();
+        if (value.side === "client") {
+            const id = node.id ?? ctx.nextId();
+            node.id = id;
+            ctx.clientSlots.push({ name: value.name, id, kind, attr: name });
+            const prev = node.dataset["ssre-client"];
+            node.dataset["ssre-client"] = prev && prev !== value.name ? `${prev} ${value.name}` : value.name;
+            return "";
+        }
+        const store = ctx.hub.stores.get(value.name) ?? ctx.hub.store(value.name, { value: "" });
+        return bindValue(node, kind, store, name);
+    }
     if (!isBindable(value)) return hasValue(value) ? getValue(value) : value;
     const ctx = currentContext();
     const store = ctx.hub.ensureNamed(value);
@@ -81,7 +95,7 @@ export const vnode = (partial: Partial<VNode> & { kind: VNode["kind"] }): VNode 
 });
 
 export const T = (text: any): VNode => {
-    if (isBindable(text)) {
+    if (isSsreSlot(text) || isBindable(text)) {
         const node = vnode({ kind: "element", tag: "span", children: [] });
         const current = bindValue(node, "text", text);
         node.children = [current == null ? "" : String(current)];
@@ -183,13 +197,13 @@ export const E = (
     }
 
     const list = flattenChildren(children);
-    if (list.length === 1 && isBindable(list[0]) && !list[0]?.[$ssre]) {
+    if (list.length === 1 && (isBindable(list[0]) || isSsreSlot(list[0])) && !list[0]?.[$ssre]) {
         const current = bindValue(node, "text", list[0]);
         node.children = [current == null ? "" : String(current)];
         return node;
     }
     node.children = list.map((child) => {
-        if (isBindable(child) && !child?.[$ssre]) return T(child);
+        if ((isBindable(child) || isSsreSlot(child)) && !child?.[$ssre]) return T(child);
         return child as Child;
     });
     return node;

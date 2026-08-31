@@ -1,4 +1,4 @@
-[**@fest-lib/ssre API Documentation v0.1.0**](../README.md)
+[**@fest-lib/ssre API Documentation v0.1.1**](../README.md)
 
 ***
 
@@ -6,7 +6,7 @@
 
 # Interface: RenderResult
 
-Defined in: ssre/node/render.ts:60
+Defined in: ssre/node/render.ts:63
 
 ## Properties
 
@@ -14,7 +14,7 @@ Defined in: ssre/node/render.ts:60
 
 > **html**: `string`
 
-Defined in: ssre/node/render.ts:61
+Defined in: ssre/node/render.ts:64
 
 ***
 
@@ -22,7 +22,7 @@ Defined in: ssre/node/render.ts:61
 
 > **scenario**: [`SsreScenario`](SsreScenario.md)
 
-Defined in: ssre/node/render.ts:62
+Defined in: ssre/node/render.ts:65
 
 ***
 
@@ -30,4 +30,4 @@ Defined in: ssre/node/render.ts:62
 
 > **context**: [`RenderContext`](../classes/RenderContext.md)
 
-Defined in: ssre/node/render.ts:63
+Defined in: ssre/node/render.ts:66

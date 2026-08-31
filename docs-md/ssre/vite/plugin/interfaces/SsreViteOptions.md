@@ -1,4 +1,4 @@
-[**@fest-lib/ssre v0.1.0**](../../../../README.md)
+[**@fest-lib/ssre v0.1.1**](../../../../README.md)
 
 ***
 
@@ -6,7 +6,7 @@
 
 # Interface: SsreViteOptions
 
-Defined in: ssre/vite/plugin.ts:13
+Defined in: ssre/vite/plugin.ts:14
 
 ## Properties
 
@@ -16,7 +16,7 @@ Defined in: ssre/vite/plugin.ts:13
 optional channelPath?: string;
 ```
 
-Defined in: ssre/vite/plugin.ts:16
+Defined in: ssre/vite/plugin.ts:17
 
 ***
 
@@ -26,7 +26,7 @@ Defined in: ssre/vite/plugin.ts:16
 optional hub?: ReactiveHub;
 ```
 
-Defined in: ssre/vite/plugin.ts:15
+Defined in: ssre/vite/plugin.ts:16
 
 ***
 
@@ -36,4 +36,4 @@ Defined in: ssre/vite/plugin.ts:15
 optional pages?: Record<string, string>;
 ```
 
-Defined in: ssre/vite/plugin.ts:14
+Defined in: ssre/vite/plugin.ts:15

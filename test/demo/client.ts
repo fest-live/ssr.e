@@ -3,11 +3,8 @@
  * FullPath: modules/projects/ssr.e/test/demo/client.ts
  * FIND:ssre
  *
- * Vite playground entry. Must not import the Node barrel (`src/node.ts`).
- * SSR HTML already inlines hydrate; this is a no-op fallback for index.html.
+ * Client half of the shared `ssre` namespace. Optional lure: ssre.use({ bindWith }).
  */
-import { hydrateSsre } from "../../src/ssre/client/hydrate.ts";
+import { ssre, stringRef } from "../../src/index.ts";
 
-if (typeof document !== "undefined" && document.querySelector("#ssre-scenario")) {
-    hydrateSsre();
-}
+ssre.client.set("accent", stringRef("from client"));

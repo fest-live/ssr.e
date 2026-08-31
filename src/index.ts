@@ -7,7 +7,9 @@
  * Fastify / FS / html-dom peers / Vite plugin: `src/node.ts` or subpath exports.
  */
 export { $ssre, $raw, Fragment, VOID_TAGS, isVNode } from "./ssre/node/types.ts";
-export type { BindingKind, ChannelConfig, ChannelMessage, Child, CssVarBinding, SsreBinding, SsreKind, SsreParams, SsreScenario, TypedOmEntry, TypedOmHint, VNode } from "./ssre/node/types.ts";
+export type { BindingKind, ChannelConfig, ChannelMessage, Child, CssVarBinding, SsreBinding, SsreClientSlot, SsreKind, SsreParams, SsreScenario, TypedOmEntry, TypedOmHint, VNode } from "./ssre/node/types.ts";
+export { $ssreSlot, isSsreSlot, ssre } from "./ssre/core/namespace.ts";
+export type { SsreBindWith, SsreSide, SsreSlot } from "./ssre/core/namespace.ts";
 export { escapeAttr, escapeHtml, escapeScriptJson } from "./ssre/node/escape.ts";
 export { RenderContext, beginRender, createContext, currentContext, withContext } from "./ssre/node/context.ts";
 export { E, T, vnode } from "./ssre/node/E.ts";

@@ -45,6 +45,13 @@ export interface SsreOnBinding {
     action: string;
 }
 
+export interface SsreClientSlot {
+    name: string;
+    id: string;
+    kind: BindingKind;
+    attr?: string;
+}
+
 export interface VNode {
     [$ssre]: true;
     kind: SsreKind;
@@ -101,6 +108,7 @@ export interface SsreScenario {
     bindings: SsreBinding[];
     events: SsreOnBinding[];
     mapped: Array<{ id: string; store: string; path: string }>;
+    clientSlots?: SsreClientSlot[];
     cssVars?: CssVarBinding[];
     typedOm?: Record<string, TypedOmEntry>;
     channel?: ChannelConfig;

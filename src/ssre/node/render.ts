@@ -6,7 +6,9 @@
  * VNode → HTML string. Collects the reactive scenario for the client runtime.
  */
 import { getValue, hasValue } from "@fest-lib/core";
+import { isSsreSlot } from "../core/namespace.ts";
 import { bindMappedRenderer } from "./M.ts";
+import { T } from "./E.ts";
 import { beginRender, currentContext, withContext, type RenderContext } from "./context.ts";
 import { escapeAttr, escapeHtml } from "./escape.ts";
 import { isVNode, VOID_TAGS, type Child, type SsreScenario, type VNode } from "./types.ts";
@@ -14,6 +16,7 @@ import type { ReactiveHub } from "../core/store.ts";
 
 const renderChild = (child: Child): string => {
     if (child == null || child === false) return "";
+    if (isSsreSlot(child)) return renderChild(T(child));
     if (isVNode(child)) return renderNode(child);
     if (Array.isArray(child)) return child.map(renderChild).join("");
     if (hasValue(child) && !isVNode(child)) return escapeHtml(getValue(child));

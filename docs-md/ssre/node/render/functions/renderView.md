@@ -1,4 +1,4 @@
-[**@fest-lib/ssre v0.1.0**](../../../../README.md)
+[**@fest-lib/ssre v0.1.1**](../../../../README.md)
 
 ***
 
@@ -10,7 +10,7 @@
 function renderView(factory, hub?): RenderResult;
 ```
 
-Defined in: ssre/node/render.ts:75
+Defined in: ssre/node/render.ts:78
 
 ## Parameters
 

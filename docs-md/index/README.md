@@ -1,4 +1,4 @@
-[**@fest-lib/ssre v0.1.0**](../README.md)
+[**@fest-lib/ssre v0.1.1**](../README.md)
 
 ***
 
@@ -27,6 +27,12 @@ Renames and re-exports [affected](variables/affected.md)
 ### $ssre
 
 Re-exports [$ssre](../ssre/node/types/variables/$ssre.md)
+
+***
+
+### $ssreSlot
+
+Re-exports [$ssreSlot](../ssre/core/namespace/variables/$ssreSlot.md)
 
 ***
 
@@ -252,6 +258,12 @@ Re-exports [isScssSource](../ssre/css/vanilla/functions/isScssSource.md)
 
 ***
 
+### isSsreSlot
+
+Re-exports [isSsreSlot](../ssre/core/namespace/functions/isSsreSlot.md)
+
+***
+
 ### isVNode
 
 Re-exports [isVNode](../ssre/node/types/functions/isVNode.md)
@@ -426,9 +438,27 @@ Re-exports [srcsetFor](../ssre/assets/picture/functions/srcsetFor.md)
 
 ***
 
+### ssre
+
+Re-exports [ssre](../ssre/core/namespace/variables/ssre.md)
+
+***
+
 ### SsreBinding
 
 Re-exports [SsreBinding](../ssre/node/types/interfaces/SsreBinding.md)
+
+***
+
+### SsreBindWith
+
+Re-exports [SsreBindWith](../ssre/core/namespace/type-aliases/SsreBindWith.md)
+
+***
+
+### SsreClientSlot
+
+Re-exports [SsreClientSlot](../ssre/node/types/interfaces/SsreClientSlot.md)
 
 ***
 
@@ -453,6 +483,18 @@ Re-exports [SsreReplyLike](../ssre/node/page/interfaces/SsreReplyLike.md)
 ### SsreScenario
 
 Re-exports [SsreScenario](../ssre/node/types/interfaces/SsreScenario.md)
+
+***
+
+### SsreSide
+
+Re-exports [SsreSide](../ssre/core/namespace/type-aliases/SsreSide.md)
+
+***
+
+### SsreSlot
+
+Re-exports [SsreSlot](../ssre/core/namespace/interfaces/SsreSlot.md)
 
 ***
 

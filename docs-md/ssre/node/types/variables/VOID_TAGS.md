@@ -1,4 +1,4 @@
-[**@fest-lib/ssre v0.1.0**](../../../../README.md)
+[**@fest-lib/ssre v0.1.1**](../../../../README.md)
 
 ***
 
@@ -10,4 +10,4 @@
 const VOID_TAGS: Set<string>;
 ```
 
-Defined in: ssre/node/types.ts:123
+Defined in: ssre/node/types.ts:131

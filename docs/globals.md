@@ -1,8 +1,8 @@
-[**@fest-lib/ssre API Documentation v0.1.0**](README.md)
+[**@fest-lib/ssre API Documentation v0.1.1**](README.md)
 
 ***
 
-# @fest-lib/ssre API Documentation v0.1.0
+# @fest-lib/ssre API Documentation v0.1.1
 
 ## Classes
 
@@ -12,6 +12,7 @@
 ## Interfaces
 
 - [PictureOptions](interfaces/PictureOptions.md)
+- [SsreSlot](interfaces/SsreSlot.md)
 - [IconParams](interfaces/IconParams.md)
 - [SsreReplyLike](interfaces/SsreReplyLike.md)
 - [PageOptions](interfaces/PageOptions.md)
@@ -19,6 +20,7 @@
 - [TypedOmEntry](interfaces/TypedOmEntry.md)
 - [CssVarBinding](interfaces/CssVarBinding.md)
 - [SsreBinding](interfaces/SsreBinding.md)
+- [SsreClientSlot](interfaces/SsreClientSlot.md)
 - [VNode](interfaces/VNode.md)
 - [SsreParams](interfaces/SsreParams.md)
 - [ChannelConfig](interfaces/ChannelConfig.md)
@@ -27,6 +29,8 @@
 
 ## Type Aliases
 
+- [SsreSide](type-aliases/SsreSide.md)
+- [SsreBindWith](type-aliases/SsreBindWith.md)
 - [HubSink](type-aliases/HubSink.md)
 - [SsreKind](type-aliases/SsreKind.md)
 - [BindingKind](type-aliases/BindingKind.md)
@@ -36,6 +40,8 @@
 ## Variables
 
 - [affected](variables/affected.md)
+- [$ssreSlot](variables/$ssreSlot.md)
+- [ssre](variables/ssre.md)
 - [escapeAttr](variables/escapeAttr.md)
 - [jsxs](variables/jsxs.md)
 - [jsxDEV](variables/jsxDEV.md)
@@ -51,6 +57,7 @@
 - [picture](functions/picture.md)
 - [hydrateSsre](functions/hydrateSsre.md)
 - [runtimeScript](functions/runtimeScript.md)
+- [isSsreSlot](functions/isSsreSlot.md)
 - [createHub](functions/createHub.md)
 - [normalizeVarName](functions/normalizeVarName.md)
 - [formatCssValue](functions/formatCssValue.md)

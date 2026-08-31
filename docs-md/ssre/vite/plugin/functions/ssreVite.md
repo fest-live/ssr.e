@@ -1,4 +1,4 @@
-[**@fest-lib/ssre v0.1.0**](../../../../README.md)
+[**@fest-lib/ssre v0.1.1**](../../../../README.md)
 
 ***
 
@@ -10,7 +10,7 @@
 function ssreVite(options?): any;
 ```
 
-Defined in: ssre/vite/plugin.ts:41
+Defined in: ssre/vite/plugin.ts:42
 
 ## Parameters
 

@@ -1,4 +1,4 @@
-[**@fest-lib/ssre v0.1.0**](../../../../README.md)
+[**@fest-lib/ssre v0.1.1**](../../../../README.md)
 
 ***
 
@@ -6,7 +6,7 @@
 
 # Class: RenderContext
 
-Defined in: ssre/node/context.ts:13
+Defined in: ssre/node/context.ts:14
 
 ## Constructors
 
@@ -16,7 +16,7 @@ Defined in: ssre/node/context.ts:13
 new RenderContext(hub?): RenderContext;
 ```
 
-Defined in: ssre/node/context.ts:22
+Defined in: ssre/node/context.ts:24
 
 #### Parameters
 
@@ -36,7 +36,7 @@ Defined in: ssre/node/context.ts:22
 readonly bindings: SsreBinding[] = [];
 ```
 
-Defined in: ssre/node/context.ts:15
+Defined in: ssre/node/context.ts:16
 
 ***
 
@@ -46,7 +46,17 @@ Defined in: ssre/node/context.ts:15
 optional channel?: ChannelConfig;
 ```
 
-Defined in: ssre/node/context.ts:18
+Defined in: ssre/node/context.ts:20
+
+***
+
+### clientSlots
+
+```ts
+readonly clientSlots: SsreClientSlot[] = [];
+```
+
+Defined in: ssre/node/context.ts:19
 
 ***
 
@@ -56,7 +66,7 @@ Defined in: ssre/node/context.ts:18
 readonly events: SsreOnBinding[] = [];
 ```
 
-Defined in: ssre/node/context.ts:16
+Defined in: ssre/node/context.ts:17
 
 ***
 
@@ -66,7 +76,7 @@ Defined in: ssre/node/context.ts:16
 readonly hub: ReactiveHub;
 ```
 
-Defined in: ssre/node/context.ts:14
+Defined in: ssre/node/context.ts:15
 
 ***
 
@@ -76,7 +86,7 @@ Defined in: ssre/node/context.ts:14
 readonly mapped: object[] = [];
 ```
 
-Defined in: ssre/node/context.ts:17
+Defined in: ssre/node/context.ts:18
 
 #### id
 
@@ -104,7 +114,7 @@ store: string;
 bind(binding): string;
 ```
 
-Defined in: ssre/node/context.ts:30
+Defined in: ssre/node/context.ts:32
 
 #### Parameters
 
@@ -124,7 +134,7 @@ Defined in: ssre/node/context.ts:30
 nextId(prefix?): string;
 ```
 
-Defined in: ssre/node/context.ts:26
+Defined in: ssre/node/context.ts:28
 
 #### Parameters
 
@@ -148,7 +158,7 @@ on(
 ): string;
 ```
 
-Defined in: ssre/node/context.ts:36
+Defined in: ssre/node/context.ts:38
 
 #### Parameters
 
@@ -176,7 +186,7 @@ Defined in: ssre/node/context.ts:36
 registerAction(handler, name?): string;
 ```
 
-Defined in: ssre/node/context.ts:42
+Defined in: ssre/node/context.ts:44
 
 #### Parameters
 
@@ -200,7 +210,7 @@ Defined in: ssre/node/context.ts:42
 toScenario(): SsreScenario;
 ```
 
-Defined in: ssre/node/context.ts:48
+Defined in: ssre/node/context.ts:50
 
 #### Returns
 

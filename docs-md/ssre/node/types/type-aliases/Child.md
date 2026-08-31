@@ -1,4 +1,4 @@
-[**@fest-lib/ssre v0.1.0**](../../../../README.md)
+[**@fest-lib/ssre v0.1.1**](../../../../README.md)
 
 ***
 
@@ -20,4 +20,4 @@ type Child =
 };
 ```
 
-Defined in: ssre/node/types.ts:65
+Defined in: ssre/node/types.ts:72

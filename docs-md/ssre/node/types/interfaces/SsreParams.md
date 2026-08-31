@@ -1,4 +1,4 @@
-[**@fest-lib/ssre v0.1.0**](../../../../README.md)
+[**@fest-lib/ssre v0.1.1**](../../../../README.md)
 
 ***
 
@@ -6,7 +6,7 @@
 
 # Interface: SsreParams
 
-Defined in: ssre/node/types.ts:67
+Defined in: ssre/node/types.ts:74
 
 ## Indexable
 
@@ -22,7 +22,7 @@ Defined in: ssre/node/types.ts:67
 optional aria?: Record<string, any>;
 ```
 
-Defined in: ssre/node/types.ts:83
+Defined in: ssre/node/types.ts:90
 
 ***
 
@@ -32,7 +32,7 @@ Defined in: ssre/node/types.ts:83
 optional attributes?: Record<string, any>;
 ```
 
-Defined in: ssre/node/types.ts:69
+Defined in: ssre/node/types.ts:76
 
 ***
 
@@ -42,7 +42,7 @@ Defined in: ssre/node/types.ts:69
 optional checked?: any;
 ```
 
-Defined in: ssre/node/types.ts:73
+Defined in: ssre/node/types.ts:80
 
 ***
 
@@ -56,7 +56,7 @@ optional classList?:
 | Iterable<string, any, any>;
 ```
 
-Defined in: ssre/node/types.ts:68
+Defined in: ssre/node/types.ts:75
 
 ***
 
@@ -66,7 +66,7 @@ Defined in: ssre/node/types.ts:68
 optional css?: Record<string, any>;
 ```
 
-Defined in: ssre/node/types.ts:85
+Defined in: ssre/node/types.ts:92
 
 Vanilla CSS custom properties (`--accent` or `accent`) bound through object.ts refs.
 
@@ -78,7 +78,7 @@ Vanilla CSS custom properties (`--accent` or `accent`) bound through object.ts r
 optional dataset?: Record<string, any>;
 ```
 
-Defined in: ssre/node/types.ts:70
+Defined in: ssre/node/types.ts:77
 
 ***
 
@@ -88,7 +88,7 @@ Defined in: ssre/node/types.ts:70
 optional hidden?: any;
 ```
 
-Defined in: ssre/node/types.ts:80
+Defined in: ssre/node/types.ts:87
 
 ***
 
@@ -98,7 +98,7 @@ Defined in: ssre/node/types.ts:80
 optional icon?: any;
 ```
 
-Defined in: ssre/node/types.ts:87
+Defined in: ssre/node/types.ts:94
 
 ***
 
@@ -108,7 +108,7 @@ Defined in: ssre/node/types.ts:87
 optional id?: any;
 ```
 
-Defined in: ssre/node/types.ts:81
+Defined in: ssre/node/types.ts:88
 
 ***
 
@@ -118,7 +118,7 @@ Defined in: ssre/node/types.ts:81
 optional name?: any;
 ```
 
-Defined in: ssre/node/types.ts:75
+Defined in: ssre/node/types.ts:82
 
 ***
 
@@ -128,7 +128,7 @@ Defined in: ssre/node/types.ts:75
 optional on?: Record<string, any>;
 ```
 
-Defined in: ssre/node/types.ts:82
+Defined in: ssre/node/types.ts:89
 
 ***
 
@@ -138,7 +138,7 @@ Defined in: ssre/node/types.ts:82
 optional part?: any;
 ```
 
-Defined in: ssre/node/types.ts:79
+Defined in: ssre/node/types.ts:86
 
 ***
 
@@ -148,7 +148,7 @@ Defined in: ssre/node/types.ts:79
 optional placeholder?: any;
 ```
 
-Defined in: ssre/node/types.ts:74
+Defined in: ssre/node/types.ts:81
 
 ***
 
@@ -158,7 +158,7 @@ Defined in: ssre/node/types.ts:74
 optional resource?: any;
 ```
 
-Defined in: ssre/node/types.ts:89
+Defined in: ssre/node/types.ts:96
 
 ***
 
@@ -168,7 +168,7 @@ Defined in: ssre/node/types.ts:89
 optional role?: any;
 ```
 
-Defined in: ssre/node/types.ts:77
+Defined in: ssre/node/types.ts:84
 
 ***
 
@@ -178,7 +178,7 @@ Defined in: ssre/node/types.ts:77
 optional slot?: any;
 ```
 
-Defined in: ssre/node/types.ts:78
+Defined in: ssre/node/types.ts:85
 
 ***
 
@@ -188,7 +188,7 @@ Defined in: ssre/node/types.ts:78
 optional src?: any;
 ```
 
-Defined in: ssre/node/types.ts:88
+Defined in: ssre/node/types.ts:95
 
 ***
 
@@ -198,7 +198,7 @@ Defined in: ssre/node/types.ts:88
 optional style?: string | Record<string, any>;
 ```
 
-Defined in: ssre/node/types.ts:71
+Defined in: ssre/node/types.ts:78
 
 ***
 
@@ -208,7 +208,7 @@ Defined in: ssre/node/types.ts:71
 optional type?: any;
 ```
 
-Defined in: ssre/node/types.ts:76
+Defined in: ssre/node/types.ts:83
 
 ***
 
@@ -218,7 +218,7 @@ Defined in: ssre/node/types.ts:76
 optional value?: any;
 ```
 
-Defined in: ssre/node/types.ts:72
+Defined in: ssre/node/types.ts:79
 
 ***
 
@@ -228,4 +228,4 @@ Defined in: ssre/node/types.ts:72
 optional vars?: Record<string, any>;
 ```
 
-Defined in: ssre/node/types.ts:86
+Defined in: ssre/node/types.ts:93
