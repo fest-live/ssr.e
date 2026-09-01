@@ -27,3 +27,6 @@ export { ssrePlugin } from "./ssre/server/fastify.ts";
 export type { SsrePluginOptions, SsreReplyLike } from "./ssre/server/fastify.ts";
 export { ssreVite } from "./ssre/vite/plugin.ts";
 export type { SsreViteOptions } from "./ssre/vite/plugin.ts";
+export { injectSsreIntoHtml, isHtmlDocument, isHtmlPageFile, pageOptionsFromHtml } from "./ssre/node/html-document.ts";
+export type { InjectSsreOptions } from "./ssre/node/html-document.ts";
+export { pageFromHtml } from "./ssre/node/page.ts";

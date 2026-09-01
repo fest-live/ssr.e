@@ -9,6 +9,8 @@
 import { runtimeScript } from "../client/hydrate.ts";
 import { emitCssBlock } from "../css/vars.ts";
 import { escapeHtml, escapeScriptJson } from "./escape.ts";
+import { injectSsreIntoHtml, isHtmlDocument } from "./html-document.ts";
+import { fragmentToVNode, parseHtmlFragment } from "./html-parse.ts";
 import { renderToString, renderView, type RenderResult } from "./render.ts";
 import type { Child } from "./types.ts";
 import type { ReactiveHub } from "../core/store.ts";
@@ -68,9 +70,23 @@ ${scriptTags(options.scripts)}
 </html>`;
 };
 
+/** Existing HTML file: document stays the base; fragment is wrapped once. */
+export const pageFromHtml = (html: string, options: PageOptions = {}): string => {
+    if (isHtmlDocument(html)) {
+        return injectSsreIntoHtml(html, {
+            channelUrl: options.channel?.url,
+            protocol: options.channel?.protocol,
+        });
+    }
+    return renderPage({
+        ...options,
+        body: options.body ?? fragmentToVNode(parseHtmlFragment(html)),
+    });
+};
+
 export const sendSsre = (reply: SsreReplyLike, page: string | PageOptions | RenderResult | Child | (() => Child), hub?: ReactiveHub) => {
     const html = typeof page === "string"
-        ? page
+        ? pageFromHtml(page, { hub, channel: hub?.channel })
         : page && typeof page === "object" && "title" in page
             ? renderPage({ ...(page as PageOptions), hub: (page as PageOptions).hub ?? hub })
             : page && typeof page === "object" && "html" in page && "scenario" in page

@@ -22,7 +22,11 @@ export default defineConfig(async ({ command }) => {
         base.plugins = [
             ...plugins,
             ssreVite({
-                pages: { "/": resolve(__dirname, "test/demo/page.ts") },
+                htmlAsBase: true,
+                pages: {
+                    "/": resolve(__dirname, "test/demo/page.ts"),
+                    "/html": resolve(__dirname, "index.html"),
+                },
             }),
         ];
         // WHY: shared initiate() prebundles `./src/**/*.ts` for the browser; that
