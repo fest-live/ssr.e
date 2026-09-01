@@ -1,4 +1,4 @@
-[**@fest-lib/ssre v0.1.2**](../../../../README.md)
+[**@fest-lib/ssre v0.1.3**](../../../../README.md)
 
 ***
 
@@ -15,7 +15,7 @@ function parseHtmlFragment(
 ): Child[];
 ```
 
-Defined in: ssre/node/html-parse.ts:117
+Defined in: ssr.e/src/ssre/node/html-parse.ts:117
 
 ## Parameters
 

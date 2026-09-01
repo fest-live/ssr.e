@@ -1,4 +1,4 @@
-[**@fest-lib/ssre v0.1.2**](../../../../README.md)
+[**@fest-lib/ssre v0.1.3**](../../../../README.md)
 
 ***
 
@@ -10,7 +10,7 @@
 function beginRender(hub?): RenderContext;
 ```
 
-Defined in: ssre/node/context.ts:85
+Defined in: ssr.e/src/ssre/node/context.ts:85
 
 ## Parameters
 

@@ -1,4 +1,4 @@
-[**@fest-lib/ssre API Documentation v0.1.2**](../README.md)
+[**@fest-lib/ssre API Documentation v0.1.3**](../README.md)
 
 ***
 
@@ -8,7 +8,7 @@
 
 > **Icon**(`params?`): [`VNode`](../interfaces/VNode.md)
 
-Defined in: ssre/node/icon.ts:22
+Defined in: ssr.e/src/ssre/node/icon.ts:22
 
 ## Parameters
 

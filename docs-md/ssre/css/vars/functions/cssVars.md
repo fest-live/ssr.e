@@ -1,4 +1,4 @@
-[**@fest-lib/ssre v0.1.2**](../../../../README.md)
+[**@fest-lib/ssre v0.1.3**](../../../../README.md)
 
 ***
 
@@ -14,7 +14,7 @@ function cssVars(
 ): CssVarBinding[];
 ```
 
-Defined in: ssre/css/vars.ts:40
+Defined in: ssr.e/src/ssre/css/vars.ts:40
 
 ## Parameters
 

@@ -1,4 +1,4 @@
-[**@fest-lib/ssre v0.1.2**](../../../../README.md)
+[**@fest-lib/ssre v0.1.3**](../../../../README.md)
 
 ***
 
@@ -10,4 +10,4 @@
 type SsreSide = "client" | "server";
 ```
 
-Defined in: ssre/core/namespace.ts:17
+Defined in: ssr.e/src/ssre/core/namespace.ts:17

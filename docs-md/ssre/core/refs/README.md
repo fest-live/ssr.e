@@ -1,4 +1,4 @@
-[**@fest-lib/ssre v0.1.2**](../../../README.md)
+[**@fest-lib/ssre v0.1.3**](../../../README.md)
 
 ***
 
@@ -10,82 +10,82 @@
 
 ### $ref
 
-Renames and re-exports [affected](../../../index/variables/affected.md)
+Re-exports [$ref](../../../index/functions/$ref.md)
 
 ***
 
 ### affected
 
-Re-exports [affected](../../../index/variables/affected.md)
+Re-exports [affected](../../../index/functions/affected.md)
 
 ***
 
 ### booleanRef
 
-Renames and re-exports [affected](../../../index/variables/affected.md)
+Re-exports [booleanRef](../../../index/functions/booleanRef.md)
 
 ***
 
 ### computed
 
-Renames and re-exports [affected](../../../index/variables/affected.md)
+Re-exports [computed](../../../index/functions/computed.md)
 
 ***
 
 ### deref
 
-Renames and re-exports [affected](../../../index/variables/affected.md)
+Re-exports [deref](../../../index/functions/deref.md)
 
 ***
 
 ### getValue
 
-Renames and re-exports [affected](../../../index/variables/affected.md)
+Re-exports [getValue](../../../index/functions/getValue.md)
 
 ***
 
 ### hasValue
 
-Renames and re-exports [affected](../../../index/variables/affected.md)
+Re-exports [hasValue](../../../index/functions/hasValue.md)
 
 ***
 
 ### isObservable
 
-Renames and re-exports [affected](../../../index/variables/affected.md)
+Re-exports [isObservable](../../../index/functions/isObservable.md)
 
 ***
 
 ### numberRef
 
-Renames and re-exports [affected](../../../index/variables/affected.md)
+Re-exports [numberRef](../../../index/functions/numberRef.md)
 
 ***
 
 ### observe
 
-Renames and re-exports [affected](../../../index/variables/affected.md)
+Re-exports [observe](../../../index/functions/observe.md)
 
 ***
 
 ### propRef
 
-Renames and re-exports [affected](../../../index/variables/affected.md)
+Re-exports [propRef](../../../index/functions/propRef.md)
 
 ***
 
 ### ref
 
-Renames and re-exports [affected](../../../index/variables/affected.md)
+Re-exports [ref](../../../index/functions/ref.md)
 
 ***
 
 ### stringRef
 
-Renames and re-exports [affected](../../../index/variables/affected.md)
+Re-exports [stringRef](../../../index/functions/stringRef.md)
 
 ***
 
 ### wrapRef
 
-Renames and re-exports [affected](../../../index/variables/affected.md)
+Re-exports [wrapRef](../../../index/functions/wrapRef.md)

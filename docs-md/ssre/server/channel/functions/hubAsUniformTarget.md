@@ -1,4 +1,4 @@
-[**@fest-lib/ssre v0.1.2**](../../../../README.md)
+[**@fest-lib/ssre v0.1.3**](../../../../README.md)
 
 ***
 
@@ -10,7 +10,7 @@
 function hubAsUniformTarget(hub): object;
 ```
 
-Defined in: ssre/server/channel.ts:72
+Defined in: ssr.e/src/ssre/server/channel.ts:72
 
 Duck-typed target so uniform `createWebSocketTransport` / proxies can share the hub.
 

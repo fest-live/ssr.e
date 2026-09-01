@@ -1,4 +1,4 @@
-[**@fest-lib/ssre API Documentation v0.1.2**](../README.md)
+[**@fest-lib/ssre API Documentation v0.1.3**](../README.md)
 
 ***
 
@@ -6,7 +6,7 @@
 
 # Interface: SsreBinding
 
-Defined in: ssre/node/types.ts:33
+Defined in: ssr.e/src/ssre/node/types.ts:33
 
 ## Properties
 
@@ -14,7 +14,7 @@ Defined in: ssre/node/types.ts:33
 
 > **id**: `string`
 
-Defined in: ssre/node/types.ts:34
+Defined in: ssr.e/src/ssre/node/types.ts:34
 
 ***
 
@@ -22,7 +22,7 @@ Defined in: ssre/node/types.ts:34
 
 > **kind**: [`BindingKind`](../type-aliases/BindingKind.md)
 
-Defined in: ssre/node/types.ts:35
+Defined in: ssr.e/src/ssre/node/types.ts:35
 
 ***
 
@@ -30,7 +30,7 @@ Defined in: ssre/node/types.ts:35
 
 > `optional` **name?**: `string`
 
-Defined in: ssre/node/types.ts:36
+Defined in: ssr.e/src/ssre/node/types.ts:36
 
 ***
 
@@ -38,7 +38,7 @@ Defined in: ssre/node/types.ts:36
 
 > **store**: `string`
 
-Defined in: ssre/node/types.ts:37
+Defined in: ssr.e/src/ssre/node/types.ts:37
 
 ***
 
@@ -46,7 +46,7 @@ Defined in: ssre/node/types.ts:37
 
 > **path**: `string`
 
-Defined in: ssre/node/types.ts:38
+Defined in: ssr.e/src/ssre/node/types.ts:38
 
 ***
 
@@ -54,4 +54,4 @@ Defined in: ssre/node/types.ts:38
 
 > `optional` **host?**: `string`
 
-Defined in: ssre/node/types.ts:39
+Defined in: ssr.e/src/ssre/node/types.ts:39

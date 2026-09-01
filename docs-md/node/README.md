@@ -1,4 +1,4 @@
-[**@fest-lib/ssre v0.1.2**](../README.md)
+[**@fest-lib/ssre v0.1.3**](../README.md)
 
 ***
 
@@ -16,7 +16,7 @@ Re-exports [$raw](../ssre/node/types/variables/$raw.md)
 
 ### $ref
 
-Renames and re-exports [affected](../index/variables/affected.md)
+Re-exports [$ref](../index/functions/$ref.md)
 
 ***
 
@@ -34,7 +34,7 @@ Re-exports [$ssreSlot](../ssre/core/namespace/variables/$ssreSlot.md)
 
 ### affected
 
-Re-exports [affected](../index/variables/affected.md)
+Re-exports [affected](../index/functions/affected.md)
 
 ***
 
@@ -94,7 +94,7 @@ Re-exports [bindNodeCss](../ssre/css/vars/functions/bindNodeCss.md)
 
 ### booleanRef
 
-Renames and re-exports [affected](../index/variables/affected.md)
+Re-exports [booleanRef](../index/functions/booleanRef.md)
 
 ***
 
@@ -118,7 +118,7 @@ Re-exports [Child](../ssre/node/types/type-aliases/Child.md)
 
 ### computed
 
-Renames and re-exports [affected](../index/variables/affected.md)
+Re-exports [computed](../index/functions/computed.md)
 
 ***
 
@@ -172,7 +172,7 @@ Re-exports [currentContext](../ssre/node/context/functions/currentContext.md)
 
 ### deref
 
-Renames and re-exports [affected](../index/variables/affected.md)
+Re-exports [deref](../index/functions/deref.md)
 
 ***
 
@@ -250,7 +250,7 @@ Re-exports [FsRoot](../ssre/fs/backend/interfaces/FsRoot.md)
 
 ### getValue
 
-Renames and re-exports [affected](../index/variables/affected.md)
+Re-exports [getValue](../index/functions/getValue.md)
 
 ***
 
@@ -268,7 +268,7 @@ Re-exports [handleChannelPost](../ssre/server/protocol/functions/handleChannelPo
 
 ### hasValue
 
-Renames and re-exports [affected](../index/variables/affected.md)
+Re-exports [hasValue](../index/functions/hasValue.md)
 
 ***
 
@@ -322,7 +322,7 @@ Re-exports [IconParams](../ssre/node/icon/interfaces/IconParams.md)
 
 ### isObservable
 
-Renames and re-exports [affected](../index/variables/affected.md)
+Re-exports [isObservable](../index/functions/isObservable.md)
 
 ***
 
@@ -388,13 +388,13 @@ Re-exports [normalizeVarName](../ssre/css/typed-om/functions/normalizeVarName.md
 
 ### numberRef
 
-Renames and re-exports [affected](../index/variables/affected.md)
+Re-exports [numberRef](../index/functions/numberRef.md)
 
 ***
 
 ### observe
 
-Renames and re-exports [affected](../index/variables/affected.md)
+Re-exports [observe](../index/functions/observe.md)
 
 ***
 
@@ -436,7 +436,7 @@ Re-exports [PictureOptions](../ssre/assets/picture/interfaces/PictureOptions.md)
 
 ### propRef
 
-Renames and re-exports [affected](../index/variables/affected.md)
+Re-exports [propRef](../index/functions/propRef.md)
 
 ***
 
@@ -460,7 +460,7 @@ Re-exports [readRequestBody](../ssre/server/channel/functions/readRequestBody.md
 
 ### ref
 
-Renames and re-exports [affected](../index/variables/affected.md)
+Re-exports [ref](../index/functions/ref.md)
 
 ***
 
@@ -634,7 +634,7 @@ Re-exports [SsreViteOptions](../ssre/vite/plugin/interfaces/SsreViteOptions.md)
 
 ### stringRef
 
-Renames and re-exports [affected](../index/variables/affected.md)
+Re-exports [stringRef](../index/functions/stringRef.md)
 
 ***
 
@@ -700,4 +700,4 @@ Re-exports [withContext](../ssre/node/context/functions/withContext.md)
 
 ### wrapRef
 
-Renames and re-exports [affected](../index/variables/affected.md)
+Re-exports [wrapRef](../index/functions/wrapRef.md)

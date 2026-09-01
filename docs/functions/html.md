@@ -1,4 +1,4 @@
-[**@fest-lib/ssre API Documentation v0.1.2**](../README.md)
+[**@fest-lib/ssre API Documentation v0.1.3**](../README.md)
 
 ***
 
@@ -8,7 +8,7 @@
 
 > **html**(`strings`, ...`values`): [`VNode`](../interfaces/VNode.md)
 
-Defined in: ssre/node/H.ts:46
+Defined in: ssr.e/src/ssre/node/H.ts:46
 
 ## Parameters
 

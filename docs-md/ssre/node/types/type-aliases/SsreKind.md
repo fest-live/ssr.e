@@ -1,4 +1,4 @@
-[**@fest-lib/ssre v0.1.2**](../../../../README.md)
+[**@fest-lib/ssre v0.1.3**](../../../../README.md)
 
 ***
 
@@ -10,4 +10,4 @@
 type SsreKind = "element" | "text" | "raw" | "fragment" | "mapped";
 ```
 
-Defined in: ssre/node/types.ts:14
+Defined in: ssr.e/src/ssre/node/types.ts:14

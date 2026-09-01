@@ -1,4 +1,4 @@
-[**@fest-lib/ssre API Documentation v0.1.2**](../README.md)
+[**@fest-lib/ssre API Documentation v0.1.3**](../README.md)
 
 ***
 
@@ -8,7 +8,7 @@
 
 > `const` **jsxDEV**: (`type`, `props`) => [`VNode`](../interfaces/VNode.md) = `jsx`
 
-Defined in: ssre/node/jsx-runtime.ts:19
+Defined in: ssr.e/src/ssre/node/jsx-runtime.ts:19
 
 ## Parameters
 

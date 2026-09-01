@@ -1,4 +1,4 @@
-[**@fest-lib/ssre API Documentation v0.1.2**](../README.md)
+[**@fest-lib/ssre API Documentation v0.1.3**](../README.md)
 
 ***
 
@@ -6,7 +6,7 @@
 
 # Interface: PageOptions
 
-Defined in: ssre/node/page.ts:23
+Defined in: ssr.e/src/ssre/node/page.ts:23
 
 ## Properties
 
@@ -14,7 +14,7 @@ Defined in: ssre/node/page.ts:23
 
 > `optional` **title?**: `string`
 
-Defined in: ssre/node/page.ts:24
+Defined in: ssr.e/src/ssre/node/page.ts:24
 
 ***
 
@@ -22,7 +22,7 @@ Defined in: ssre/node/page.ts:24
 
 > `optional` **lang?**: `string`
 
-Defined in: ssre/node/page.ts:25
+Defined in: ssr.e/src/ssre/node/page.ts:25
 
 ***
 
@@ -30,7 +30,7 @@ Defined in: ssre/node/page.ts:25
 
 > `optional` **body?**: [`Child`](../type-aliases/Child.md) \| [`RenderResult`](RenderResult.md) \| (() => [`Child`](../type-aliases/Child.md))
 
-Defined in: ssre/node/page.ts:26
+Defined in: ssr.e/src/ssre/node/page.ts:26
 
 ***
 
@@ -38,7 +38,7 @@ Defined in: ssre/node/page.ts:26
 
 > `optional` **head?**: `string`
 
-Defined in: ssre/node/page.ts:27
+Defined in: ssr.e/src/ssre/node/page.ts:27
 
 ***
 
@@ -46,7 +46,7 @@ Defined in: ssre/node/page.ts:27
 
 > `optional` **styles?**: `string`[]
 
-Defined in: ssre/node/page.ts:28
+Defined in: ssr.e/src/ssre/node/page.ts:28
 
 ***
 
@@ -54,7 +54,7 @@ Defined in: ssre/node/page.ts:28
 
 > `optional` **scripts?**: `string`[]
 
-Defined in: ssre/node/page.ts:29
+Defined in: ssr.e/src/ssre/node/page.ts:29
 
 ***
 
@@ -62,7 +62,7 @@ Defined in: ssre/node/page.ts:29
 
 > `optional` **hub?**: [`ReactiveHub`](../classes/ReactiveHub.md)
 
-Defined in: ssre/node/page.ts:30
+Defined in: ssr.e/src/ssre/node/page.ts:30
 
 ***
 
@@ -70,7 +70,7 @@ Defined in: ssre/node/page.ts:30
 
 > `optional` **channel?**: `object`
 
-Defined in: ssre/node/page.ts:31
+Defined in: ssr.e/src/ssre/node/page.ts:31
 
 #### url
 
@@ -86,7 +86,7 @@ Defined in: ssre/node/page.ts:31
 
 > `optional` **factory?**: (`ctx`) => [`Child`](../type-aliases/Child.md)
 
-Defined in: ssre/node/page.ts:32
+Defined in: ssr.e/src/ssre/node/page.ts:32
 
 #### Parameters
 

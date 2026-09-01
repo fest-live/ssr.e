@@ -1,4 +1,4 @@
-[**@fest-lib/ssre v0.1.2**](../../../../README.md)
+[**@fest-lib/ssre v0.1.3**](../../../../README.md)
 
 ***
 
@@ -6,7 +6,7 @@
 
 # Interface: CssVarBinding
 
-Defined in: ssre/node/types.ts:25
+Defined in: ssr.e/src/ssre/node/types.ts:25
 
 ## Properties
 
@@ -16,7 +16,7 @@ Defined in: ssre/node/types.ts:25
 host: string;
 ```
 
-Defined in: ssre/node/types.ts:29
+Defined in: ssr.e/src/ssre/node/types.ts:29
 
 ***
 
@@ -26,7 +26,7 @@ Defined in: ssre/node/types.ts:29
 name: string;
 ```
 
-Defined in: ssre/node/types.ts:26
+Defined in: ssr.e/src/ssre/node/types.ts:26
 
 ***
 
@@ -36,7 +36,7 @@ Defined in: ssre/node/types.ts:26
 path: string;
 ```
 
-Defined in: ssre/node/types.ts:28
+Defined in: ssr.e/src/ssre/node/types.ts:28
 
 ***
 
@@ -46,7 +46,7 @@ Defined in: ssre/node/types.ts:28
 store: string;
 ```
 
-Defined in: ssre/node/types.ts:27
+Defined in: ssr.e/src/ssre/node/types.ts:27
 
 ***
 
@@ -56,4 +56,4 @@ Defined in: ssre/node/types.ts:27
 optional typed?: TypedOmHint;
 ```
 
-Defined in: ssre/node/types.ts:30
+Defined in: ssr.e/src/ssre/node/types.ts:30

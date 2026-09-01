@@ -1,4 +1,4 @@
-[**@fest-lib/ssre v0.1.2**](../../../../README.md)
+[**@fest-lib/ssre v0.1.3**](../../../../README.md)
 
 ***
 
@@ -6,7 +6,7 @@
 
 # Interface: TypedOmEntry
 
-Defined in: ssre/node/types.ts:20
+Defined in: ssr.e/src/ssre/node/types.ts:20
 
 ## Properties
 
@@ -16,7 +16,7 @@ Defined in: ssre/node/types.ts:20
 optional target?: string;
 ```
 
-Defined in: ssre/node/types.ts:22
+Defined in: ssr.e/src/ssre/node/types.ts:22
 
 ***
 
@@ -26,4 +26,4 @@ Defined in: ssre/node/types.ts:22
 type: TypedOmHint;
 ```
 
-Defined in: ssre/node/types.ts:21
+Defined in: ssr.e/src/ssre/node/types.ts:21

@@ -1,4 +1,4 @@
-[**@fest-lib/ssre API Documentation v0.1.2**](../README.md)
+[**@fest-lib/ssre API Documentation v0.1.3**](../README.md)
 
 ***
 
@@ -8,7 +8,7 @@
 
 > **cssVars**(`vars`, `options?`, `hub?`): [`CssVarBinding`](../interfaces/CssVarBinding.md)[]
 
-Defined in: ssre/css/vars.ts:40
+Defined in: ssr.e/src/ssre/css/vars.ts:40
 
 ## Parameters
 

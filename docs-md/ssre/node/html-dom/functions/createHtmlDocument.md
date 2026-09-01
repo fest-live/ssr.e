@@ -1,4 +1,4 @@
-[**@fest-lib/ssre v0.1.2**](../../../../README.md)
+[**@fest-lib/ssre v0.1.3**](../../../../README.md)
 
 ***
 
@@ -10,7 +10,7 @@
 function createHtmlDocument(html?, engine?): HtmlDocumentHandle;
 ```
 
-Defined in: ssre/node/html-dom.ts:148
+Defined in: ssr.e/src/ssre/node/html-dom.ts:148
 
 Full document when a peer is present; builtin returns a serialize-only stub.
 

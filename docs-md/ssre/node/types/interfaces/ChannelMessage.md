@@ -1,4 +1,4 @@
-[**@fest-lib/ssre v0.1.2**](../../../../README.md)
+[**@fest-lib/ssre v0.1.3**](../../../../README.md)
 
 ***
 
@@ -6,7 +6,7 @@
 
 # Interface: ChannelMessage
 
-Defined in: ssre/node/types.ts:117
+Defined in: ssr.e/src/ssre/node/types.ts:117
 
 ## Properties
 
@@ -16,7 +16,7 @@ Defined in: ssre/node/types.ts:117
 optional args?: any[];
 ```
 
-Defined in: ssre/node/types.ts:126
+Defined in: ssr.e/src/ssre/node/types.ts:126
 
 ***
 
@@ -26,7 +26,7 @@ Defined in: ssre/node/types.ts:126
 optional event?: string;
 ```
 
-Defined in: ssre/node/types.ts:125
+Defined in: ssr.e/src/ssre/node/types.ts:125
 
 ***
 
@@ -36,7 +36,7 @@ Defined in: ssre/node/types.ts:125
 optional html?: string;
 ```
 
-Defined in: ssre/node/types.ts:124
+Defined in: ssr.e/src/ssre/node/types.ts:124
 
 ***
 
@@ -46,7 +46,7 @@ Defined in: ssre/node/types.ts:124
 optional id?: string;
 ```
 
-Defined in: ssre/node/types.ts:122
+Defined in: ssr.e/src/ssre/node/types.ts:122
 
 ***
 
@@ -56,7 +56,7 @@ Defined in: ssre/node/types.ts:122
 optional message?: string;
 ```
 
-Defined in: ssre/node/types.ts:128
+Defined in: ssr.e/src/ssre/node/types.ts:128
 
 ***
 
@@ -66,7 +66,7 @@ Defined in: ssre/node/types.ts:128
 optional name?: string;
 ```
 
-Defined in: ssre/node/types.ts:123
+Defined in: ssr.e/src/ssre/node/types.ts:123
 
 ***
 
@@ -76,7 +76,7 @@ Defined in: ssre/node/types.ts:123
 optional path?: string;
 ```
 
-Defined in: ssre/node/types.ts:120
+Defined in: ssr.e/src/ssre/node/types.ts:120
 
 ***
 
@@ -86,7 +86,7 @@ Defined in: ssre/node/types.ts:120
 optional scenario?: SsreScenario;
 ```
 
-Defined in: ssre/node/types.ts:127
+Defined in: ssr.e/src/ssre/node/types.ts:127
 
 ***
 
@@ -96,7 +96,7 @@ Defined in: ssre/node/types.ts:127
 optional store?: string;
 ```
 
-Defined in: ssre/node/types.ts:119
+Defined in: ssr.e/src/ssre/node/types.ts:119
 
 ***
 
@@ -106,7 +106,7 @@ Defined in: ssre/node/types.ts:119
 t: "html" | "set" | "event" | "action" | "hello" | "error";
 ```
 
-Defined in: ssre/node/types.ts:118
+Defined in: ssr.e/src/ssre/node/types.ts:118
 
 ***
 
@@ -116,4 +116,4 @@ Defined in: ssre/node/types.ts:118
 optional value?: any;
 ```
 
-Defined in: ssre/node/types.ts:121
+Defined in: ssr.e/src/ssre/node/types.ts:121

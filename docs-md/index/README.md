@@ -1,4 +1,4 @@
-[**@fest-lib/ssre v0.1.2**](../README.md)
+[**@fest-lib/ssre v0.1.3**](../README.md)
 
 ***
 
@@ -6,21 +6,28 @@
 
 # index
 
-## Variables
+## Functions
 
-- [affected](variables/affected.md)
+- [$ref](functions/$ref.md)
+- [affected](functions/affected.md)
+- [booleanRef](functions/booleanRef.md)
+- [computed](functions/computed.md)
+- [deref](functions/deref.md)
+- [getValue](functions/getValue.md)
+- [hasValue](functions/hasValue.md)
+- [isObservable](functions/isObservable.md)
+- [numberRef](functions/numberRef.md)
+- [observe](functions/observe.md)
+- [propRef](functions/propRef.md)
+- [ref](functions/ref.md)
+- [stringRef](functions/stringRef.md)
+- [wrapRef](functions/wrapRef.md)
 
 ## References
 
 ### $raw
 
 Re-exports [$raw](../ssre/node/types/variables/$raw.md)
-
-***
-
-### $ref
-
-Renames and re-exports [affected](variables/affected.md)
 
 ***
 
@@ -60,12 +67,6 @@ Re-exports [bindNodeCss](../ssre/css/vars/functions/bindNodeCss.md)
 
 ***
 
-### booleanRef
-
-Renames and re-exports [affected](variables/affected.md)
-
-***
-
 ### ChannelConfig
 
 Re-exports [ChannelConfig](../ssre/node/types/interfaces/ChannelConfig.md)
@@ -81,12 +82,6 @@ Re-exports [ChannelMessage](../ssre/node/types/interfaces/ChannelMessage.md)
 ### Child
 
 Re-exports [Child](../ssre/node/types/type-aliases/Child.md)
-
-***
-
-### computed
-
-Renames and re-exports [affected](variables/affected.md)
 
 ***
 
@@ -123,12 +118,6 @@ Re-exports [cssVars](../ssre/css/vars/functions/cssVars.md)
 ### currentContext
 
 Re-exports [currentContext](../ssre/node/context/functions/currentContext.md)
-
-***
-
-### deref
-
-Renames and re-exports [affected](variables/affected.md)
 
 ***
 
@@ -192,12 +181,6 @@ Re-exports [fragmentToVNode](../ssre/node/html-parse/functions/fragmentToVNode.m
 
 ***
 
-### getValue
-
-Renames and re-exports [affected](variables/affected.md)
-
-***
-
 ### H
 
 Re-exports [H](../ssre/node/H/functions/H.md)
@@ -207,12 +190,6 @@ Re-exports [H](../ssre/node/H/functions/H.md)
 ### handleChannelPost
 
 Re-exports [handleChannelPost](../ssre/server/protocol/functions/handleChannelPost.md)
-
-***
-
-### hasValue
-
-Renames and re-exports [affected](variables/affected.md)
 
 ***
 
@@ -243,12 +220,6 @@ Re-exports [Icon](../ssre/node/icon/functions/Icon.md)
 ### IconParams
 
 Re-exports [IconParams](../ssre/node/icon/interfaces/IconParams.md)
-
-***
-
-### isObservable
-
-Renames and re-exports [affected](variables/affected.md)
 
 ***
 
@@ -300,18 +271,6 @@ Re-exports [normalizeVarName](../ssre/css/typed-om/functions/normalizeVarName.md
 
 ***
 
-### numberRef
-
-Renames and re-exports [affected](variables/affected.md)
-
-***
-
-### observe
-
-Renames and re-exports [affected](variables/affected.md)
-
-***
-
 ### PageOptions
 
 Re-exports [PageOptions](../ssre/node/page/interfaces/PageOptions.md)
@@ -348,12 +307,6 @@ Re-exports [PictureOptions](../ssre/assets/picture/interfaces/PictureOptions.md)
 
 ***
 
-### propRef
-
-Renames and re-exports [affected](variables/affected.md)
-
-***
-
 ### raw
 
 Re-exports [raw](../ssre/node/H/functions/raw.md)
@@ -363,12 +316,6 @@ Re-exports [raw](../ssre/node/H/functions/raw.md)
 ### ReactiveHub
 
 Re-exports [ReactiveHub](../ssre/core/store/classes/ReactiveHub.md)
-
-***
-
-### ref
-
-Renames and re-exports [affected](variables/affected.md)
 
 ***
 
@@ -498,12 +445,6 @@ Re-exports [SsreSlot](../ssre/core/namespace/interfaces/SsreSlot.md)
 
 ***
 
-### stringRef
-
-Renames and re-exports [affected](variables/affected.md)
-
-***
-
 ### T
 
 Re-exports [T](../ssre/node/E/functions/T.md)
@@ -561,9 +502,3 @@ Re-exports [widthVariant](../ssre/assets/picture/functions/widthVariant.md)
 ### withContext
 
 Re-exports [withContext](../ssre/node/context/functions/withContext.md)
-
-***
-
-### wrapRef
-
-Renames and re-exports [affected](variables/affected.md)

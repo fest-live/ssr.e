@@ -1,4 +1,4 @@
-[**@fest-lib/ssre v0.1.2**](../../../../README.md)
+[**@fest-lib/ssre v0.1.3**](../../../../README.md)
 
 ***
 
@@ -10,7 +10,7 @@
 function encodeSse(msg): string;
 ```
 
-Defined in: ssre/server/protocol.ts:12
+Defined in: ssr.e/src/ssre/server/protocol.ts:12
 
 ## Parameters
 

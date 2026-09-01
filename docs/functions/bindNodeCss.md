@@ -1,4 +1,4 @@
-[**@fest-lib/ssre API Documentation v0.1.2**](../README.md)
+[**@fest-lib/ssre API Documentation v0.1.3**](../README.md)
 
 ***
 
@@ -8,7 +8,7 @@
 
 > **bindNodeCss**(`node`, `vars`): `string`
 
-Defined in: ssre/css/vars.ts:50
+Defined in: ssr.e/src/ssre/css/vars.ts:50
 
 ## Parameters
 

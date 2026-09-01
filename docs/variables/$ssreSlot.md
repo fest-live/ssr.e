@@ -1,4 +1,4 @@
-[**@fest-lib/ssre API Documentation v0.1.2**](../README.md)
+[**@fest-lib/ssre API Documentation v0.1.3**](../README.md)
 
 ***
 
@@ -8,4 +8,4 @@
 
 > `const` **$ssreSlot**: *typeof* `$ssreSlot`
 
-Defined in: ssre/core/namespace.ts:14
+Defined in: ssr.e/src/ssre/core/namespace.ts:14

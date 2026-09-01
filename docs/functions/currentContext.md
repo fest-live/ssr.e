@@ -1,4 +1,4 @@
-[**@fest-lib/ssre API Documentation v0.1.2**](../README.md)
+[**@fest-lib/ssre API Documentation v0.1.3**](../README.md)
 
 ***
 
@@ -8,7 +8,7 @@
 
 > **currentContext**(): [`RenderContext`](../classes/RenderContext.md)
 
-Defined in: ssre/node/context.ts:75
+Defined in: ssr.e/src/ssre/node/context.ts:75
 
 ## Returns
 

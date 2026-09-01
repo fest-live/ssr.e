@@ -1,4 +1,4 @@
-[**@fest-lib/ssre API Documentation v0.1.2**](../README.md)
+[**@fest-lib/ssre API Documentation v0.1.3**](../README.md)
 
 ***
 
@@ -8,7 +8,7 @@
 
 > **vnode**(`partial`): [`VNode`](../interfaces/VNode.md)
 
-Defined in: ssre/node/E.ts:88
+Defined in: ssr.e/src/ssre/node/E.ts:88
 
 ## Parameters
 

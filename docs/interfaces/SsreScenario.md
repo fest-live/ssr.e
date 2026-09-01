@@ -1,4 +1,4 @@
-[**@fest-lib/ssre API Documentation v0.1.2**](../README.md)
+[**@fest-lib/ssre API Documentation v0.1.3**](../README.md)
 
 ***
 
@@ -6,7 +6,7 @@
 
 # Interface: SsreScenario
 
-Defined in: ssre/node/types.ts:105
+Defined in: ssr.e/src/ssre/node/types.ts:105
 
 ## Properties
 
@@ -14,7 +14,7 @@ Defined in: ssre/node/types.ts:105
 
 > **version**: `1`
 
-Defined in: ssre/node/types.ts:106
+Defined in: ssr.e/src/ssre/node/types.ts:106
 
 ***
 
@@ -22,7 +22,7 @@ Defined in: ssre/node/types.ts:106
 
 > **stores**: `Record`\<`string`, \{ `snapshot`: `any`; \}\>
 
-Defined in: ssre/node/types.ts:107
+Defined in: ssr.e/src/ssre/node/types.ts:107
 
 ***
 
@@ -30,7 +30,7 @@ Defined in: ssre/node/types.ts:107
 
 > **bindings**: [`SsreBinding`](SsreBinding.md)[]
 
-Defined in: ssre/node/types.ts:108
+Defined in: ssr.e/src/ssre/node/types.ts:108
 
 ***
 
@@ -38,7 +38,7 @@ Defined in: ssre/node/types.ts:108
 
 > **events**: `SsreOnBinding`[]
 
-Defined in: ssre/node/types.ts:109
+Defined in: ssr.e/src/ssre/node/types.ts:109
 
 ***
 
@@ -46,7 +46,7 @@ Defined in: ssre/node/types.ts:109
 
 > **mapped**: `object`[]
 
-Defined in: ssre/node/types.ts:110
+Defined in: ssr.e/src/ssre/node/types.ts:110
 
 #### id
 
@@ -66,7 +66,7 @@ Defined in: ssre/node/types.ts:110
 
 > `optional` **clientSlots?**: [`SsreClientSlot`](SsreClientSlot.md)[]
 
-Defined in: ssre/node/types.ts:111
+Defined in: ssr.e/src/ssre/node/types.ts:111
 
 ***
 
@@ -74,7 +74,7 @@ Defined in: ssre/node/types.ts:111
 
 > `optional` **cssVars?**: [`CssVarBinding`](CssVarBinding.md)[]
 
-Defined in: ssre/node/types.ts:112
+Defined in: ssr.e/src/ssre/node/types.ts:112
 
 ***
 
@@ -82,7 +82,7 @@ Defined in: ssre/node/types.ts:112
 
 > `optional` **typedOm?**: `Record`\<`string`, [`TypedOmEntry`](TypedOmEntry.md)\>
 
-Defined in: ssre/node/types.ts:113
+Defined in: ssr.e/src/ssre/node/types.ts:113
 
 ***
 
@@ -90,4 +90,4 @@ Defined in: ssre/node/types.ts:113
 
 > `optional` **channel?**: [`ChannelConfig`](ChannelConfig.md)
 
-Defined in: ssre/node/types.ts:114
+Defined in: ssr.e/src/ssre/node/types.ts:114

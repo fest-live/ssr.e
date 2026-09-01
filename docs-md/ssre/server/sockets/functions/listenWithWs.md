@@ -1,4 +1,4 @@
-[**@fest-lib/ssre v0.1.2**](../../../../README.md)
+[**@fest-lib/ssre v0.1.3**](../../../../README.md)
 
 ***
 
@@ -14,7 +14,7 @@ function listenWithWs(
 ): Promise<Server<typeof WebSocket, typeof IncomingMessage>>;
 ```
 
-Defined in: ssre/server/sockets.ts:40
+Defined in: ssr.e/src/ssre/server/sockets.ts:40
 
 Dynamic `ws` WebSocketServer on an HTTP server.
 

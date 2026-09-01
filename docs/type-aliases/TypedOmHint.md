@@ -1,4 +1,4 @@
-[**@fest-lib/ssre API Documentation v0.1.2**](../README.md)
+[**@fest-lib/ssre API Documentation v0.1.3**](../README.md)
 
 ***
 
@@ -8,4 +8,4 @@
 
 > **TypedOmHint** = `"px"` \| `"percent"` \| `"number"` \| `"color"` \| `"length"` \| `"ident"` \| `"raw"`
 
-Defined in: ssre/node/types.ts:18
+Defined in: ssr.e/src/ssre/node/types.ts:18

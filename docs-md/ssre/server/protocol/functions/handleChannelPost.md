@@ -1,4 +1,4 @@
-[**@fest-lib/ssre v0.1.2**](../../../../README.md)
+[**@fest-lib/ssre v0.1.3**](../../../../README.md)
 
 ***
 
@@ -12,7 +12,7 @@ function handleChannelPost(hub, raw): Promise<{
 }>;
 ```
 
-Defined in: ssre/server/protocol.ts:25
+Defined in: ssr.e/src/ssre/server/protocol.ts:25
 
 ## Parameters
 

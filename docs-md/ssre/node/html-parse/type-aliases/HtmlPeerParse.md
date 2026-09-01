@@ -1,4 +1,4 @@
-[**@fest-lib/ssre v0.1.2**](../../../../README.md)
+[**@fest-lib/ssre v0.1.3**](../../../../README.md)
 
 ***
 
@@ -10,7 +10,7 @@
 type HtmlPeerParse = (html, atb, psh, engine) => Child[];
 ```
 
-Defined in: ssre/node/html-parse.ts:14
+Defined in: ssr.e/src/ssre/node/html-parse.ts:14
 
 ## Parameters
 

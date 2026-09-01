@@ -1,4 +1,4 @@
-[**@fest-lib/ssre v0.1.2**](../../../../README.md)
+[**@fest-lib/ssre v0.1.3**](../../../../README.md)
 
 ***
 
@@ -10,7 +10,7 @@
 function cssUnitOf(typed?): string;
 ```
 
-Defined in: ssre/css/typed-om.ts:41
+Defined in: ssr.e/src/ssre/css/typed-om.ts:41
 
 ## Parameters
 

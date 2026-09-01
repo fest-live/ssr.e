@@ -1,4 +1,4 @@
-[**@fest-lib/ssre v0.1.2**](../../../../README.md)
+[**@fest-lib/ssre v0.1.3**](../../../../README.md)
 
 ***
 
@@ -10,7 +10,7 @@
 function createHub(): ReactiveHub;
 ```
 
-Defined in: ssre/core/store.ts:142
+Defined in: ssr.e/src/ssre/core/store.ts:142
 
 ## Returns
 

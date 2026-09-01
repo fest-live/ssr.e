@@ -1,4 +1,4 @@
-[**@fest-lib/ssre v0.1.2**](../../../../README.md)
+[**@fest-lib/ssre v0.1.3**](../../../../README.md)
 
 ***
 
@@ -6,7 +6,7 @@
 
 # Interface: HtmlDocumentHandle
 
-Defined in: ssre/node/html-dom.ts:140
+Defined in: ssr.e/src/ssre/node/html-dom.ts:140
 
 ## Properties
 
@@ -16,7 +16,7 @@ Defined in: ssre/node/html-dom.ts:140
 optional document?: any;
 ```
 
-Defined in: ssre/node/html-dom.ts:142
+Defined in: ssr.e/src/ssre/node/html-dom.ts:142
 
 ***
 
@@ -26,7 +26,7 @@ Defined in: ssre/node/html-dom.ts:142
 engine: HtmlParseEngine;
 ```
 
-Defined in: ssre/node/html-dom.ts:141
+Defined in: ssr.e/src/ssre/node/html-dom.ts:141
 
 ***
 
@@ -36,7 +36,7 @@ Defined in: ssre/node/html-dom.ts:141
 serialize: () => string;
 ```
 
-Defined in: ssre/node/html-dom.ts:144
+Defined in: ssr.e/src/ssre/node/html-dom.ts:144
 
 #### Returns
 
@@ -50,4 +50,4 @@ Defined in: ssre/node/html-dom.ts:144
 optional window?: any;
 ```
 
-Defined in: ssre/node/html-dom.ts:143
+Defined in: ssr.e/src/ssre/node/html-dom.ts:143

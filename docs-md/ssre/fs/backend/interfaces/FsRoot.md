@@ -1,4 +1,4 @@
-[**@fest-lib/ssre v0.1.2**](../../../../README.md)
+[**@fest-lib/ssre v0.1.3**](../../../../README.md)
 
 ***
 
@@ -6,7 +6,7 @@
 
 # Interface: FsRoot
 
-Defined in: ssre/fs/backend.ts:17
+Defined in: ssr.e/src/ssre/fs/backend.ts:17
 
 ## Properties
 
@@ -16,7 +16,7 @@ Defined in: ssre/fs/backend.ts:17
 root: string;
 ```
 
-Defined in: ssre/fs/backend.ts:18
+Defined in: ssr.e/src/ssre/fs/backend.ts:18
 
 ## Methods
 
@@ -26,7 +26,7 @@ Defined in: ssre/fs/backend.ts:18
 exists(rel): Promise<boolean>;
 ```
 
-Defined in: ssre/fs/backend.ts:20
+Defined in: ssr.e/src/ssre/fs/backend.ts:20
 
 #### Parameters
 
@@ -46,7 +46,7 @@ Defined in: ssre/fs/backend.ts:20
 list(rel?): Promise<string[]>;
 ```
 
-Defined in: ssre/fs/backend.ts:22
+Defined in: ssr.e/src/ssre/fs/backend.ts:22
 
 #### Parameters
 
@@ -66,7 +66,7 @@ Defined in: ssre/fs/backend.ts:22
 mkdir(rel): Promise<void>;
 ```
 
-Defined in: ssre/fs/backend.ts:27
+Defined in: ssr.e/src/ssre/fs/backend.ts:27
 
 #### Parameters
 
@@ -86,7 +86,7 @@ Defined in: ssre/fs/backend.ts:27
 readBytes(rel): Promise<Buffer<ArrayBufferLike>>;
 ```
 
-Defined in: ssre/fs/backend.ts:25
+Defined in: ssr.e/src/ssre/fs/backend.ts:25
 
 #### Parameters
 
@@ -106,7 +106,7 @@ Defined in: ssre/fs/backend.ts:25
 readText(rel): Promise<string>;
 ```
 
-Defined in: ssre/fs/backend.ts:23
+Defined in: ssr.e/src/ssre/fs/backend.ts:23
 
 #### Parameters
 
@@ -126,7 +126,7 @@ Defined in: ssre/fs/backend.ts:23
 remove(rel): Promise<void>;
 ```
 
-Defined in: ssre/fs/backend.ts:28
+Defined in: ssr.e/src/ssre/fs/backend.ts:28
 
 #### Parameters
 
@@ -146,7 +146,7 @@ Defined in: ssre/fs/backend.ts:28
 resolve(rel): string;
 ```
 
-Defined in: ssre/fs/backend.ts:19
+Defined in: ssr.e/src/ssre/fs/backend.ts:19
 
 #### Parameters
 
@@ -170,7 +170,7 @@ stat(rel): Promise<{
 }>;
 ```
 
-Defined in: ssre/fs/backend.ts:21
+Defined in: ssr.e/src/ssre/fs/backend.ts:21
 
 #### Parameters
 
@@ -194,7 +194,7 @@ Defined in: ssre/fs/backend.ts:21
 writeBytes(rel, data): Promise<void>;
 ```
 
-Defined in: ssre/fs/backend.ts:26
+Defined in: ssr.e/src/ssre/fs/backend.ts:26
 
 #### Parameters
 
@@ -218,7 +218,7 @@ Defined in: ssre/fs/backend.ts:26
 writeText(rel, text): Promise<void>;
 ```
 
-Defined in: ssre/fs/backend.ts:24
+Defined in: ssr.e/src/ssre/fs/backend.ts:24
 
 #### Parameters
 

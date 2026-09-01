@@ -1,4 +1,4 @@
-[**@fest-lib/ssre v0.1.2**](../../../../README.md)
+[**@fest-lib/ssre v0.1.3**](../../../../README.md)
 
 ***
 
@@ -6,7 +6,7 @@
 
 # Interface: SsrePluginOptions
 
-Defined in: ssre/server/fastify.ts:17
+Defined in: ssr.e/src/ssre/server/fastify.ts:17
 
 ## Properties
 
@@ -21,7 +21,7 @@ optional channel?:
 };
 ```
 
-Defined in: ssre/server/fastify.ts:20
+Defined in: ssr.e/src/ssre/server/fastify.ts:20
 
 ***
 
@@ -31,7 +31,7 @@ Defined in: ssre/server/fastify.ts:20
 optional hub?: ReactiveHub;
 ```
 
-Defined in: ssre/server/fastify.ts:18
+Defined in: ssr.e/src/ssre/server/fastify.ts:18
 
 ***
 
@@ -41,4 +41,4 @@ Defined in: ssre/server/fastify.ts:18
 optional prefix?: string;
 ```
 
-Defined in: ssre/server/fastify.ts:19
+Defined in: ssr.e/src/ssre/server/fastify.ts:19

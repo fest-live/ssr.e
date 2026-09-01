@@ -1,4 +1,4 @@
-[**@fest-lib/ssre API Documentation v0.1.2**](../README.md)
+[**@fest-lib/ssre API Documentation v0.1.3**](../README.md)
 
 ***
 
@@ -8,7 +8,7 @@
 
 > **picture**(`src`, `options?`): [`VNode`](../interfaces/VNode.md)
 
-Defined in: ssre/assets/picture.ts:33
+Defined in: ssr.e/src/ssre/assets/picture.ts:33
 
 ## Parameters
 

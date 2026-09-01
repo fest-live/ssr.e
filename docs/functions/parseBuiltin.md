@@ -1,4 +1,4 @@
-[**@fest-lib/ssre API Documentation v0.1.2**](../README.md)
+[**@fest-lib/ssre API Documentation v0.1.3**](../README.md)
 
 ***
 
@@ -8,7 +8,7 @@
 
 > **parseBuiltin**(`html`, `atb?`, `psh?`, `start?`, `stopTag?`): `object`
 
-Defined in: ssre/node/html-parse.ts:66
+Defined in: ssr.e/src/ssre/node/html-parse.ts:66
 
 ## Parameters
 

@@ -1,4 +1,4 @@
-[**@fest-lib/ssre v0.1.2**](../../../../README.md)
+[**@fest-lib/ssre v0.1.3**](../../../../README.md)
 
 ***
 
@@ -6,7 +6,7 @@
 
 # Interface: SsreScenario
 
-Defined in: ssre/node/types.ts:105
+Defined in: ssr.e/src/ssre/node/types.ts:105
 
 ## Properties
 
@@ -16,7 +16,7 @@ Defined in: ssre/node/types.ts:105
 bindings: SsreBinding[];
 ```
 
-Defined in: ssre/node/types.ts:108
+Defined in: ssr.e/src/ssre/node/types.ts:108
 
 ***
 
@@ -26,7 +26,7 @@ Defined in: ssre/node/types.ts:108
 optional channel?: ChannelConfig;
 ```
 
-Defined in: ssre/node/types.ts:114
+Defined in: ssr.e/src/ssre/node/types.ts:114
 
 ***
 
@@ -36,7 +36,7 @@ Defined in: ssre/node/types.ts:114
 optional clientSlots?: SsreClientSlot[];
 ```
 
-Defined in: ssre/node/types.ts:111
+Defined in: ssr.e/src/ssre/node/types.ts:111
 
 ***
 
@@ -46,7 +46,7 @@ Defined in: ssre/node/types.ts:111
 optional cssVars?: CssVarBinding[];
 ```
 
-Defined in: ssre/node/types.ts:112
+Defined in: ssr.e/src/ssre/node/types.ts:112
 
 ***
 
@@ -56,7 +56,7 @@ Defined in: ssre/node/types.ts:112
 events: SsreOnBinding[];
 ```
 
-Defined in: ssre/node/types.ts:109
+Defined in: ssr.e/src/ssre/node/types.ts:109
 
 ***
 
@@ -66,7 +66,7 @@ Defined in: ssre/node/types.ts:109
 mapped: object[];
 ```
 
-Defined in: ssre/node/types.ts:110
+Defined in: ssr.e/src/ssre/node/types.ts:110
 
 #### id
 
@@ -96,7 +96,7 @@ stores: Record<string, {
 }>;
 ```
 
-Defined in: ssre/node/types.ts:107
+Defined in: ssr.e/src/ssre/node/types.ts:107
 
 ***
 
@@ -106,7 +106,7 @@ Defined in: ssre/node/types.ts:107
 optional typedOm?: Record<string, TypedOmEntry>;
 ```
 
-Defined in: ssre/node/types.ts:113
+Defined in: ssr.e/src/ssre/node/types.ts:113
 
 ***
 
@@ -116,4 +116,4 @@ Defined in: ssre/node/types.ts:113
 version: 1;
 ```
 
-Defined in: ssre/node/types.ts:106
+Defined in: ssr.e/src/ssre/node/types.ts:106

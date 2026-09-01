@@ -1,4 +1,4 @@
-[**@fest-lib/ssre API Documentation v0.1.2**](../README.md)
+[**@fest-lib/ssre API Documentation v0.1.3**](../README.md)
 
 ***
 
@@ -8,7 +8,7 @@
 
 > **formatCssValue**(`value`, `typed?`): `string`
 
-Defined in: ssre/css/typed-om.ts:23
+Defined in: ssr.e/src/ssre/css/typed-om.ts:23
 
 ## Parameters
 

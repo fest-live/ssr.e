@@ -120,7 +120,7 @@ export const E = (
     const node = vnode({
         kind: "element",
         tag: parsed.tag,
-        classList: asClassList(parsed.className),
+        classList: asClassList(parsed.className ?? []),
         attrs: parsed.id ? { id: parsed.id } : {},
     });
 

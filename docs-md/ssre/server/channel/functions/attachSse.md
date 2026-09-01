@@ -1,4 +1,4 @@
-[**@fest-lib/ssre v0.1.2**](../../../../README.md)
+[**@fest-lib/ssre v0.1.3**](../../../../README.md)
 
 ***
 
@@ -14,7 +14,7 @@ function attachSse(
 ): void;
 ```
 
-Defined in: ssre/server/channel.ts:17
+Defined in: ssr.e/src/ssre/server/channel.ts:17
 
 ## Parameters
 

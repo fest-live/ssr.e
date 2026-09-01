@@ -1,4 +1,4 @@
-[**@fest-lib/ssre v0.1.2**](../../../../README.md)
+[**@fest-lib/ssre v0.1.3**](../../../../README.md)
 
 ***
 
@@ -10,7 +10,7 @@
 const ssre: object;
 ```
 
-Defined in: ssre/core/namespace.ts:163
+Defined in: ssr.e/src/ssre/core/namespace.ts:163
 
 ## Type Declaration
 

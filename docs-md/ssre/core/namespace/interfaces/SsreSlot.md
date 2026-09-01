@@ -1,4 +1,4 @@
-[**@fest-lib/ssre v0.1.2**](../../../../README.md)
+[**@fest-lib/ssre v0.1.3**](../../../../README.md)
 
 ***
 
@@ -6,7 +6,7 @@
 
 # Interface: SsreSlot
 
-Defined in: ssre/core/namespace.ts:19
+Defined in: ssr.e/src/ssre/core/namespace.ts:19
 
 ## Properties
 
@@ -16,7 +16,7 @@ Defined in: ssre/core/namespace.ts:19
 [$ssreSlot]: true;
 ```
 
-Defined in: ssre/core/namespace.ts:20
+Defined in: ssr.e/src/ssre/core/namespace.ts:20
 
 ***
 
@@ -26,7 +26,7 @@ Defined in: ssre/core/namespace.ts:20
 optional fallback?: any;
 ```
 
-Defined in: ssre/core/namespace.ts:23
+Defined in: ssr.e/src/ssre/core/namespace.ts:23
 
 ***
 
@@ -36,7 +36,7 @@ Defined in: ssre/core/namespace.ts:23
 name: string;
 ```
 
-Defined in: ssre/core/namespace.ts:22
+Defined in: ssr.e/src/ssre/core/namespace.ts:22
 
 ***
 
@@ -46,4 +46,4 @@ Defined in: ssre/core/namespace.ts:22
 side: SsreSide;
 ```
 
-Defined in: ssre/core/namespace.ts:21
+Defined in: ssr.e/src/ssre/core/namespace.ts:21

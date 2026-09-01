@@ -1,4 +1,4 @@
-[**@fest-lib/ssre API Documentation v0.1.2**](../README.md)
+[**@fest-lib/ssre API Documentation v0.1.3**](../README.md)
 
 ***
 
@@ -6,7 +6,7 @@
 
 # Class: ReactiveHub
 
-Defined in: ssre/core/store.ts:33
+Defined in: ssr.e/src/ssre/core/store.ts:33
 
 ## Constructors
 
@@ -22,9 +22,9 @@ Defined in: ssre/core/store.ts:33
 
 ### stores
 
-> `readonly` **stores**: `Map`\<`string`, `observeValid`\<`any`\>\>
+> `readonly` **stores**: `Map`\<`string`, `any`\>
 
-Defined in: ssre/core/store.ts:34
+Defined in: ssr.e/src/ssre/core/store.ts:34
 
 ***
 
@@ -32,7 +32,7 @@ Defined in: ssre/core/store.ts:34
 
 > `readonly` **actions**: `Map`\<`string`, (...`args`) => `any`\>
 
-Defined in: ssre/core/store.ts:35
+Defined in: ssr.e/src/ssre/core/store.ts:35
 
 ***
 
@@ -40,7 +40,7 @@ Defined in: ssre/core/store.ts:35
 
 > `readonly` **mapped**: `Map`\<`string`, \{ `source`: `any`; `store`: `string`; `path`: `string`; `render`: () => `string`; \}\>
 
-Defined in: ssre/core/store.ts:36
+Defined in: ssr.e/src/ssre/core/store.ts:36
 
 ***
 
@@ -48,7 +48,7 @@ Defined in: ssre/core/store.ts:36
 
 > `readonly` **names**: `WeakMap`\<`object`, `string`\>
 
-Defined in: ssre/core/store.ts:37
+Defined in: ssr.e/src/ssre/core/store.ts:37
 
 ***
 
@@ -56,7 +56,7 @@ Defined in: ssre/core/store.ts:37
 
 > `readonly` **sinks**: `Set`\<[`HubSink`](../type-aliases/HubSink.md)\>
 
-Defined in: ssre/core/store.ts:38
+Defined in: ssr.e/src/ssre/core/store.ts:38
 
 ***
 
@@ -64,7 +64,7 @@ Defined in: ssre/core/store.ts:38
 
 > `readonly` **cssVars**: `Map`\<`string`, [`CssVarBinding`](../interfaces/CssVarBinding.md)\>
 
-Defined in: ssre/core/store.ts:39
+Defined in: ssr.e/src/ssre/core/store.ts:39
 
 ***
 
@@ -72,7 +72,7 @@ Defined in: ssre/core/store.ts:39
 
 > `readonly` **typedOmEntries**: `Map`\<`string`, [`TypedOmEntry`](../interfaces/TypedOmEntry.md)\>
 
-Defined in: ssre/core/store.ts:40
+Defined in: ssr.e/src/ssre/core/store.ts:40
 
 ***
 
@@ -80,7 +80,7 @@ Defined in: ssre/core/store.ts:40
 
 > **channel**: [`ChannelConfig`](../interfaces/ChannelConfig.md) \| `undefined`
 
-Defined in: ssre/core/store.ts:41
+Defined in: ssr.e/src/ssre/core/store.ts:41
 
 ***
 
@@ -88,7 +88,7 @@ Defined in: ssre/core/store.ts:41
 
 > **lastScenario**: [`SsreScenario`](../interfaces/SsreScenario.md) \| `null` = `null`
 
-Defined in: ssre/core/store.ts:42
+Defined in: ssr.e/src/ssre/core/store.ts:42
 
 ## Methods
 
@@ -96,7 +96,7 @@ Defined in: ssre/core/store.ts:42
 
 > **store**\<`T`\>(`name`, `initial`): `observeValid`\<`T`\>
 
-Defined in: ssre/core/store.ts:46
+Defined in: ssr.e/src/ssre/core/store.ts:46
 
 #### Type Parameters
 
@@ -122,9 +122,9 @@ Defined in: ssre/core/store.ts:46
 
 ### attach()
 
-> **attach**(`name`, `observed`): `observeValid`\<`any`\>
+> **attach**(`name`, `observed`): `any`
 
-Defined in: ssre/core/store.ts:57
+Defined in: ssr.e/src/ssre/core/store.ts:57
 
 #### Parameters
 
@@ -134,11 +134,11 @@ Defined in: ssre/core/store.ts:57
 
 ##### observed
 
-`observeValid`\<`any`\>
+`any`
 
 #### Returns
 
-`observeValid`\<`any`\>
+`any`
 
 ***
 
@@ -146,7 +146,7 @@ Defined in: ssre/core/store.ts:57
 
 > **nameOf**(`target`): `string` \| `null`
 
-Defined in: ssre/core/store.ts:71
+Defined in: ssr.e/src/ssre/core/store.ts:71
 
 #### Parameters
 
@@ -164,7 +164,7 @@ Defined in: ssre/core/store.ts:71
 
 > **ensureNamed**(`target`, `hint?`): `string`
 
-Defined in: ssre/core/store.ts:76
+Defined in: ssr.e/src/ssre/core/store.ts:76
 
 #### Parameters
 
@@ -186,7 +186,7 @@ Defined in: ssre/core/store.ts:76
 
 > **action**(`name`, `fn`): `void`
 
-Defined in: ssre/core/store.ts:84
+Defined in: ssr.e/src/ssre/core/store.ts:84
 
 #### Parameters
 
@@ -208,7 +208,7 @@ Defined in: ssre/core/store.ts:84
 
 > **cssVar**(`binding`): [`CssVarBinding`](../interfaces/CssVarBinding.md)
 
-Defined in: ssre/core/store.ts:88
+Defined in: ssr.e/src/ssre/core/store.ts:88
 
 #### Parameters
 
@@ -226,7 +226,7 @@ Defined in: ssre/core/store.ts:88
 
 > **typedOm**(`name`, `entry`): `void`
 
-Defined in: ssre/core/store.ts:93
+Defined in: ssr.e/src/ssre/core/store.ts:93
 
 #### Parameters
 
@@ -248,7 +248,7 @@ Defined in: ssre/core/store.ts:93
 
 > **subscribe**(`sink`): () => `void`
 
-Defined in: ssre/core/store.ts:97
+Defined in: ssr.e/src/ssre/core/store.ts:97
 
 #### Parameters
 
@@ -266,7 +266,7 @@ Defined in: ssre/core/store.ts:97
 
 > **broadcast**(`msg`): `void`
 
-Defined in: ssre/core/store.ts:102
+Defined in: ssr.e/src/ssre/core/store.ts:102
 
 #### Parameters
 
@@ -284,7 +284,7 @@ Defined in: ssre/core/store.ts:102
 
 > **handle**(`msg`): `any`
 
-Defined in: ssre/core/store.ts:106
+Defined in: ssr.e/src/ssre/core/store.ts:106
 
 #### Parameters
 
@@ -302,7 +302,7 @@ Defined in: ssre/core/store.ts:106
 
 > **toScenario**(): `Pick`\<[`SsreScenario`](../interfaces/SsreScenario.md), `"stores"` \| `"cssVars"` \| `"typedOm"`\>
 
-Defined in: ssre/core/store.ts:123
+Defined in: ssr.e/src/ssre/core/store.ts:123
 
 #### Returns
 
@@ -314,7 +314,7 @@ Defined in: ssre/core/store.ts:123
 
 > **\[dispose\]**(): `void`
 
-Defined in: ssre/core/store.ts:135
+Defined in: ssr.e/src/ssre/core/store.ts:135
 
 #### Returns
 

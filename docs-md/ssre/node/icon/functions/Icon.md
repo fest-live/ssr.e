@@ -1,4 +1,4 @@
-[**@fest-lib/ssre v0.1.2**](../../../../README.md)
+[**@fest-lib/ssre v0.1.3**](../../../../README.md)
 
 ***
 
@@ -10,7 +10,7 @@
 function Icon(params?): VNode;
 ```
 
-Defined in: ssre/node/icon.ts:22
+Defined in: ssr.e/src/ssre/node/icon.ts:22
 
 ## Parameters
 

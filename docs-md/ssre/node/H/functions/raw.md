@@ -1,4 +1,4 @@
-[**@fest-lib/ssre v0.1.2**](../../../../README.md)
+[**@fest-lib/ssre v0.1.3**](../../../../README.md)
 
 ***
 
@@ -10,7 +10,7 @@
 function raw(htmlText): VNode;
 ```
 
-Defined in: ssre/node/H.ts:75
+Defined in: ssr.e/src/ssre/node/H.ts:75
 
 ## Parameters
 

@@ -1,4 +1,4 @@
-[**@fest-lib/ssre API Documentation v0.1.2**](../README.md)
+[**@fest-lib/ssre API Documentation v0.1.3**](../README.md)
 
 ***
 
@@ -8,4 +8,4 @@
 
 > **Child** = [`VNode`](../interfaces/VNode.md) \| `string` \| `number` \| `boolean` \| `null` \| `undefined` \| `Child`[] \| \{ `value?`: `any`; \}
 
-Defined in: ssre/node/types.ts:72
+Defined in: ssr.e/src/ssre/node/types.ts:72

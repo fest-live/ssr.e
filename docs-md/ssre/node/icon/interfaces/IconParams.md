@@ -1,4 +1,4 @@
-[**@fest-lib/ssre v0.1.2**](../../../../README.md)
+[**@fest-lib/ssre v0.1.3**](../../../../README.md)
 
 ***
 
@@ -6,7 +6,7 @@
 
 # Interface: IconParams
 
-Defined in: ssre/node/icon.ts:12
+Defined in: ssr.e/src/ssre/node/icon.ts:12
 
 ## Properties
 
@@ -16,7 +16,7 @@ Defined in: ssre/node/icon.ts:12
 optional classList?: string | string[] | Set<string>;
 ```
 
-Defined in: ssre/node/icon.ts:19
+Defined in: ssr.e/src/ssre/node/icon.ts:19
 
 ***
 
@@ -26,7 +26,7 @@ Defined in: ssre/node/icon.ts:19
 optional icon?: any;
 ```
 
-Defined in: ssre/node/icon.ts:13
+Defined in: ssr.e/src/ssre/node/icon.ts:13
 
 ***
 
@@ -36,7 +36,7 @@ Defined in: ssre/node/icon.ts:13
 optional name?: any;
 ```
 
-Defined in: ssre/node/icon.ts:14
+Defined in: ssr.e/src/ssre/node/icon.ts:14
 
 ***
 
@@ -46,7 +46,7 @@ Defined in: ssre/node/icon.ts:14
 optional resource?: any;
 ```
 
-Defined in: ssre/node/icon.ts:16
+Defined in: ssr.e/src/ssre/node/icon.ts:16
 
 ***
 
@@ -56,7 +56,7 @@ Defined in: ssre/node/icon.ts:16
 optional size?: any;
 ```
 
-Defined in: ssre/node/icon.ts:18
+Defined in: ssr.e/src/ssre/node/icon.ts:18
 
 ***
 
@@ -66,7 +66,7 @@ Defined in: ssre/node/icon.ts:18
 optional src?: any;
 ```
 
-Defined in: ssre/node/icon.ts:15
+Defined in: ssr.e/src/ssre/node/icon.ts:15
 
 ***
 
@@ -76,4 +76,4 @@ Defined in: ssre/node/icon.ts:15
 optional style?: any;
 ```
 
-Defined in: ssre/node/icon.ts:17
+Defined in: ssr.e/src/ssre/node/icon.ts:17

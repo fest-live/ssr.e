@@ -1,4 +1,4 @@
-[**@fest-lib/ssre v0.1.2**](../../../../README.md)
+[**@fest-lib/ssre v0.1.3**](../../../../README.md)
 
 ***
 
@@ -10,4 +10,4 @@
 type HtmlEngine = HtmlParseEngine;
 ```
 
-Defined in: ssre/node/html-dom.ts:15
+Defined in: ssr.e/src/ssre/node/html-dom.ts:15

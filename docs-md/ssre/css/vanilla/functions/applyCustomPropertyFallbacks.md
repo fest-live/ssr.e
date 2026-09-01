@@ -1,4 +1,4 @@
-[**@fest-lib/ssre v0.1.2**](../../../../README.md)
+[**@fest-lib/ssre v0.1.3**](../../../../README.md)
 
 ***
 
@@ -10,7 +10,7 @@
 function applyCustomPropertyFallbacks(css, values): string;
 ```
 
-Defined in: ssre/css/vanilla.ts:22
+Defined in: ssr.e/src/ssre/css/vanilla.ts:22
 
 Inject current values as `var(--x, fallback)` so first paint matches the hub.
 

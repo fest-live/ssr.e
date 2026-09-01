@@ -1,4 +1,4 @@
-[**@fest-lib/ssre API Documentation v0.1.2**](../README.md)
+[**@fest-lib/ssre API Documentation v0.1.3**](../README.md)
 
 ***
 
@@ -8,7 +8,7 @@
 
 > **parseChannelBody**(`raw`): [`ChannelMessage`](../interfaces/ChannelMessage.md) \| `null`
 
-Defined in: ssre/server/protocol.ts:15
+Defined in: ssr.e/src/ssre/server/protocol.ts:15
 
 ## Parameters
 

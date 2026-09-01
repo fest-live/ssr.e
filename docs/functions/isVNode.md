@@ -1,4 +1,4 @@
-[**@fest-lib/ssre API Documentation v0.1.2**](../README.md)
+[**@fest-lib/ssre API Documentation v0.1.3**](../README.md)
 
 ***
 
@@ -8,7 +8,7 @@
 
 > **isVNode**(`value`): `value is VNode`
 
-Defined in: ssre/node/types.ts:136
+Defined in: ssr.e/src/ssre/node/types.ts:136
 
 ## Parameters
 

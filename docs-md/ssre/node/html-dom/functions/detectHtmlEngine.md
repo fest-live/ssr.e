@@ -1,4 +1,4 @@
-[**@fest-lib/ssre v0.1.2**](../../../../README.md)
+[**@fest-lib/ssre v0.1.3**](../../../../README.md)
 
 ***
 
@@ -10,7 +10,7 @@
 function detectHtmlEngine(): HtmlParseEngine;
 ```
 
-Defined in: ssre/node/html-dom.ts:42
+Defined in: ssr.e/src/ssre/node/html-dom.ts:42
 
 Default is builtin. Opt in with setHtmlEngine() or SSRE_HTML_ENGINE — do not auto-pick jsdom.
 

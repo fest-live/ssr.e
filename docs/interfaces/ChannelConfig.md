@@ -1,4 +1,4 @@
-[**@fest-lib/ssre API Documentation v0.1.2**](../README.md)
+[**@fest-lib/ssre API Documentation v0.1.3**](../README.md)
 
 ***
 
@@ -6,7 +6,7 @@
 
 # Interface: ChannelConfig
 
-Defined in: ssre/node/types.ts:100
+Defined in: ssr.e/src/ssre/node/types.ts:100
 
 ## Properties
 
@@ -14,7 +14,7 @@ Defined in: ssre/node/types.ts:100
 
 > **url**: `string`
 
-Defined in: ssre/node/types.ts:101
+Defined in: ssr.e/src/ssre/node/types.ts:101
 
 ***
 
@@ -22,4 +22,4 @@ Defined in: ssre/node/types.ts:101
 
 > **protocol**: `"sse"` \| `"ws"` \| `"socket.io"`
 
-Defined in: ssre/node/types.ts:102
+Defined in: ssr.e/src/ssre/node/types.ts:102

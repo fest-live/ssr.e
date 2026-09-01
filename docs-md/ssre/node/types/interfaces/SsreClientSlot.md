@@ -1,4 +1,4 @@
-[**@fest-lib/ssre v0.1.2**](../../../../README.md)
+[**@fest-lib/ssre v0.1.3**](../../../../README.md)
 
 ***
 
@@ -6,7 +6,7 @@
 
 # Interface: SsreClientSlot
 
-Defined in: ssre/node/types.ts:48
+Defined in: ssr.e/src/ssre/node/types.ts:48
 
 ## Properties
 
@@ -16,7 +16,7 @@ Defined in: ssre/node/types.ts:48
 optional attr?: string;
 ```
 
-Defined in: ssre/node/types.ts:52
+Defined in: ssr.e/src/ssre/node/types.ts:52
 
 ***
 
@@ -26,7 +26,7 @@ Defined in: ssre/node/types.ts:52
 id: string;
 ```
 
-Defined in: ssre/node/types.ts:50
+Defined in: ssr.e/src/ssre/node/types.ts:50
 
 ***
 
@@ -36,7 +36,7 @@ Defined in: ssre/node/types.ts:50
 kind: BindingKind;
 ```
 
-Defined in: ssre/node/types.ts:51
+Defined in: ssr.e/src/ssre/node/types.ts:51
 
 ***
 
@@ -46,4 +46,4 @@ Defined in: ssre/node/types.ts:51
 name: string;
 ```
 
-Defined in: ssre/node/types.ts:49
+Defined in: ssr.e/src/ssre/node/types.ts:49

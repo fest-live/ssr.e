@@ -1,4 +1,4 @@
-[**@fest-lib/ssre API Documentation v0.1.2**](../README.md)
+[**@fest-lib/ssre API Documentation v0.1.3**](../README.md)
 
 ***
 
@@ -8,7 +8,7 @@
 
 > **renderNode**(`node`): `string`
 
-Defined in: ssre/node/render.ts:49
+Defined in: ssr.e/src/ssre/node/render.ts:49
 
 ## Parameters
 

@@ -1,4 +1,4 @@
-[**@fest-lib/ssre v0.1.2**](../../../../README.md)
+[**@fest-lib/ssre v0.1.3**](../../../../README.md)
 
 ***
 
@@ -10,7 +10,7 @@
 function resizeImageBuffer(input, options): Promise<Buffer<ArrayBufferLike> | null>;
 ```
 
-Defined in: ssre/assets/canvas.ts:21
+Defined in: ssr.e/src/ssre/assets/canvas.ts:21
 
 ## Parameters
 

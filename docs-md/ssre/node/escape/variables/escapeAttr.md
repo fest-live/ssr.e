@@ -1,4 +1,4 @@
-[**@fest-lib/ssre v0.1.2**](../../../../README.md)
+[**@fest-lib/ssre v0.1.3**](../../../../README.md)
 
 ***
 
@@ -10,7 +10,7 @@
 const escapeAttr: (value) => string = escapeHtml;
 ```
 
-Defined in: ssre/node/escape.ts:20
+Defined in: ssr.e/src/ssre/node/escape.ts:20
 
 ## Parameters
 

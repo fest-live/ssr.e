@@ -14,6 +14,9 @@
             "@fest-lib/ssre": [
                 "./src/index.ts"
             ],
+            "@fest-lib/lure": [
+                "../lure.ts/src/index.ts"
+            ],
             "@fest-lib/object": [
                 "../object.ts/src/index.ts"
             ],
@@ -25,8 +28,8 @@
             ]
         },
         "target": "ESNext",
-        "module": "NodeNext",
-        "moduleResolution": "NodeNext",
+        "module": "ESNext",
+        "moduleResolution": "bundler",
         "lib": [
             "ESNext",
             "DOM"

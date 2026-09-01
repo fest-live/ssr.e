@@ -1,4 +1,4 @@
-[**@fest-lib/ssre v0.1.2**](../../../../README.md)
+[**@fest-lib/ssre v0.1.3**](../../../../README.md)
 
 ***
 
@@ -6,7 +6,7 @@
 
 # Interface: PictureOptions
 
-Defined in: ssre/assets/picture.ts:12
+Defined in: ssr.e/src/ssre/assets/picture.ts:12
 
 ## Properties
 
@@ -16,7 +16,7 @@ Defined in: ssre/assets/picture.ts:12
 optional alt?: string;
 ```
 
-Defined in: ssre/assets/picture.ts:13
+Defined in: ssr.e/src/ssre/assets/picture.ts:13
 
 ***
 
@@ -26,7 +26,7 @@ Defined in: ssre/assets/picture.ts:13
 optional classList?: string | string[] | Set<string>;
 ```
 
-Defined in: ssre/assets/picture.ts:16
+Defined in: ssr.e/src/ssre/assets/picture.ts:16
 
 ***
 
@@ -36,7 +36,7 @@ Defined in: ssre/assets/picture.ts:16
 optional loading?: "lazy" | "eager";
 ```
 
-Defined in: ssre/assets/picture.ts:17
+Defined in: ssr.e/src/ssre/assets/picture.ts:17
 
 ***
 
@@ -46,7 +46,7 @@ Defined in: ssre/assets/picture.ts:17
 optional sizes?: string;
 ```
 
-Defined in: ssre/assets/picture.ts:15
+Defined in: ssr.e/src/ssre/assets/picture.ts:15
 
 ***
 
@@ -56,4 +56,4 @@ Defined in: ssre/assets/picture.ts:15
 optional widths?: number[];
 ```
 
-Defined in: ssre/assets/picture.ts:14
+Defined in: ssr.e/src/ssre/assets/picture.ts:14

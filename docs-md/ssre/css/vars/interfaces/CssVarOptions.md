@@ -1,4 +1,4 @@
-[**@fest-lib/ssre v0.1.2**](../../../../README.md)
+[**@fest-lib/ssre v0.1.3**](../../../../README.md)
 
 ***
 
@@ -6,7 +6,7 @@
 
 # Interface: CssVarOptions
 
-Defined in: ssre/css/vars.ts:15
+Defined in: ssr.e/src/ssre/css/vars.ts:15
 
 ## Properties
 
@@ -16,7 +16,7 @@ Defined in: ssre/css/vars.ts:15
 optional host?: string;
 ```
 
-Defined in: ssre/css/vars.ts:16
+Defined in: ssr.e/src/ssre/css/vars.ts:16
 
 ***
 
@@ -26,7 +26,7 @@ Defined in: ssre/css/vars.ts:16
 optional store?: string;
 ```
 
-Defined in: ssre/css/vars.ts:18
+Defined in: ssr.e/src/ssre/css/vars.ts:18
 
 ***
 
@@ -36,4 +36,4 @@ Defined in: ssre/css/vars.ts:18
 optional typed?: TypedOmHint;
 ```
 
-Defined in: ssre/css/vars.ts:17
+Defined in: ssr.e/src/ssre/css/vars.ts:17

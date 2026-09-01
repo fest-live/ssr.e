@@ -1,4 +1,4 @@
-[**@fest-lib/ssre v0.1.2**](../../../../README.md)
+[**@fest-lib/ssre v0.1.3**](../../../../README.md)
 
 ***
 
@@ -6,7 +6,7 @@
 
 # Class: ReactiveHub
 
-Defined in: ssre/core/store.ts:33
+Defined in: ssr.e/src/ssre/core/store.ts:33
 
 ## Constructors
 
@@ -28,7 +28,7 @@ new ReactiveHub(): ReactiveHub;
 readonly actions: Map<string, (...args) => any>;
 ```
 
-Defined in: ssre/core/store.ts:35
+Defined in: ssr.e/src/ssre/core/store.ts:35
 
 ***
 
@@ -40,7 +40,7 @@ channel:
   | undefined;
 ```
 
-Defined in: ssre/core/store.ts:41
+Defined in: ssr.e/src/ssre/core/store.ts:41
 
 ***
 
@@ -50,7 +50,7 @@ Defined in: ssre/core/store.ts:41
 readonly cssVars: Map<string, CssVarBinding>;
 ```
 
-Defined in: ssre/core/store.ts:39
+Defined in: ssr.e/src/ssre/core/store.ts:39
 
 ***
 
@@ -60,7 +60,7 @@ Defined in: ssre/core/store.ts:39
 lastScenario: SsreScenario | null = null;
 ```
 
-Defined in: ssre/core/store.ts:42
+Defined in: ssr.e/src/ssre/core/store.ts:42
 
 ***
 
@@ -75,7 +75,7 @@ readonly mapped: Map<string, {
 }>;
 ```
 
-Defined in: ssre/core/store.ts:36
+Defined in: ssr.e/src/ssre/core/store.ts:36
 
 ***
 
@@ -85,7 +85,7 @@ Defined in: ssre/core/store.ts:36
 readonly names: WeakMap<object, string>;
 ```
 
-Defined in: ssre/core/store.ts:37
+Defined in: ssr.e/src/ssre/core/store.ts:37
 
 ***
 
@@ -95,17 +95,17 @@ Defined in: ssre/core/store.ts:37
 readonly sinks: Set<HubSink>;
 ```
 
-Defined in: ssre/core/store.ts:38
+Defined in: ssr.e/src/ssre/core/store.ts:38
 
 ***
 
 ### stores
 
 ```ts
-readonly stores: Map<string, observeValid<any>>;
+readonly stores: Map<string, any>;
 ```
 
-Defined in: ssre/core/store.ts:34
+Defined in: ssr.e/src/ssre/core/store.ts:34
 
 ***
 
@@ -115,7 +115,7 @@ Defined in: ssre/core/store.ts:34
 readonly typedOmEntries: Map<string, TypedOmEntry>;
 ```
 
-Defined in: ssre/core/store.ts:40
+Defined in: ssr.e/src/ssre/core/store.ts:40
 
 ## Methods
 
@@ -125,7 +125,7 @@ Defined in: ssre/core/store.ts:40
 dispose: void;
 ```
 
-Defined in: ssre/core/store.ts:135
+Defined in: ssr.e/src/ssre/core/store.ts:135
 
 #### Returns
 
@@ -139,7 +139,7 @@ Defined in: ssre/core/store.ts:135
 action(name, fn): void;
 ```
 
-Defined in: ssre/core/store.ts:84
+Defined in: ssr.e/src/ssre/core/store.ts:84
 
 #### Parameters
 
@@ -160,10 +160,10 @@ Defined in: ssre/core/store.ts:84
 ### attach()
 
 ```ts
-attach(name, observed): observeValid<any>;
+attach(name, observed): any;
 ```
 
-Defined in: ssre/core/store.ts:57
+Defined in: ssr.e/src/ssre/core/store.ts:57
 
 #### Parameters
 
@@ -173,11 +173,11 @@ Defined in: ssre/core/store.ts:57
 
 ##### observed
 
-`observeValid`\<`any`\>
+`any`
 
 #### Returns
 
-`observeValid`\<`any`\>
+`any`
 
 ***
 
@@ -187,7 +187,7 @@ Defined in: ssre/core/store.ts:57
 broadcast(msg): void;
 ```
 
-Defined in: ssre/core/store.ts:102
+Defined in: ssr.e/src/ssre/core/store.ts:102
 
 #### Parameters
 
@@ -207,7 +207,7 @@ Defined in: ssre/core/store.ts:102
 cssVar(binding): CssVarBinding;
 ```
 
-Defined in: ssre/core/store.ts:88
+Defined in: ssr.e/src/ssre/core/store.ts:88
 
 #### Parameters
 
@@ -227,7 +227,7 @@ Defined in: ssre/core/store.ts:88
 ensureNamed(target, hint?): string;
 ```
 
-Defined in: ssre/core/store.ts:76
+Defined in: ssr.e/src/ssre/core/store.ts:76
 
 #### Parameters
 
@@ -251,7 +251,7 @@ Defined in: ssre/core/store.ts:76
 handle(msg): any;
 ```
 
-Defined in: ssre/core/store.ts:106
+Defined in: ssr.e/src/ssre/core/store.ts:106
 
 #### Parameters
 
@@ -271,7 +271,7 @@ Defined in: ssre/core/store.ts:106
 nameOf(target): string | null;
 ```
 
-Defined in: ssre/core/store.ts:71
+Defined in: ssr.e/src/ssre/core/store.ts:71
 
 #### Parameters
 
@@ -291,7 +291,7 @@ Defined in: ssre/core/store.ts:71
 store<T>(name, initial): observeValid<T>;
 ```
 
-Defined in: ssre/core/store.ts:46
+Defined in: ssr.e/src/ssre/core/store.ts:46
 
 #### Type Parameters
 
@@ -321,7 +321,7 @@ Defined in: ssre/core/store.ts:46
 subscribe(sink): () => void;
 ```
 
-Defined in: ssre/core/store.ts:97
+Defined in: ssr.e/src/ssre/core/store.ts:97
 
 #### Parameters
 
@@ -341,7 +341,7 @@ Defined in: ssre/core/store.ts:97
 toScenario(): Pick<SsreScenario, "stores" | "cssVars" | "typedOm">;
 ```
 
-Defined in: ssre/core/store.ts:123
+Defined in: ssr.e/src/ssre/core/store.ts:123
 
 #### Returns
 
@@ -355,7 +355,7 @@ Defined in: ssre/core/store.ts:123
 typedOm(name, entry): void;
 ```
 
-Defined in: ssre/core/store.ts:93
+Defined in: ssr.e/src/ssre/core/store.ts:93
 
 #### Parameters
 

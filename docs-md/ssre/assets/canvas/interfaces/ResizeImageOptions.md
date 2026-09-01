@@ -1,4 +1,4 @@
-[**@fest-lib/ssre v0.1.2**](../../../../README.md)
+[**@fest-lib/ssre v0.1.3**](../../../../README.md)
 
 ***
 
@@ -6,7 +6,7 @@
 
 # Interface: ResizeImageOptions
 
-Defined in: ssre/assets/canvas.ts:9
+Defined in: ssr.e/src/ssre/assets/canvas.ts:9
 
 ## Properties
 
@@ -16,7 +16,7 @@ Defined in: ssre/assets/canvas.ts:9
 optional height?: number;
 ```
 
-Defined in: ssre/assets/canvas.ts:11
+Defined in: ssr.e/src/ssre/assets/canvas.ts:11
 
 ***
 
@@ -26,7 +26,7 @@ Defined in: ssre/assets/canvas.ts:11
 optional mime?: "image/png" | "image/jpeg" | "image/webp";
 ```
 
-Defined in: ssre/assets/canvas.ts:12
+Defined in: ssr.e/src/ssre/assets/canvas.ts:12
 
 ***
 
@@ -36,4 +36,4 @@ Defined in: ssre/assets/canvas.ts:12
 width: number;
 ```
 
-Defined in: ssre/assets/canvas.ts:10
+Defined in: ssr.e/src/ssre/assets/canvas.ts:10

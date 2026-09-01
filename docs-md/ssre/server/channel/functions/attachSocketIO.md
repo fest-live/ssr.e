@@ -1,4 +1,4 @@
-[**@fest-lib/ssre v0.1.2**](../../../../README.md)
+[**@fest-lib/ssre v0.1.3**](../../../../README.md)
 
 ***
 
@@ -10,7 +10,7 @@
 function attachSocketIO(hub, io): void;
 ```
 
-Defined in: ssre/server/channel.ts:60
+Defined in: ssr.e/src/ssre/server/channel.ts:60
 
 Optional socket.io Server — same message event `ssre`.
 

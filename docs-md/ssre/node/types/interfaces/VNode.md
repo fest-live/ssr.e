@@ -1,4 +1,4 @@
-[**@fest-lib/ssre v0.1.2**](../../../../README.md)
+[**@fest-lib/ssre v0.1.3**](../../../../README.md)
 
 ***
 
@@ -6,7 +6,7 @@
 
 # Interface: VNode
 
-Defined in: ssre/node/types.ts:55
+Defined in: ssr.e/src/ssre/node/types.ts:55
 
 ## Properties
 
@@ -16,7 +16,7 @@ Defined in: ssre/node/types.ts:55
 [$ssre]: true;
 ```
 
-Defined in: ssre/node/types.ts:56
+Defined in: ssr.e/src/ssre/node/types.ts:56
 
 ***
 
@@ -26,7 +26,7 @@ Defined in: ssre/node/types.ts:56
 attrs: Record<string, string>;
 ```
 
-Defined in: ssre/node/types.ts:60
+Defined in: ssr.e/src/ssre/node/types.ts:60
 
 ***
 
@@ -36,7 +36,7 @@ Defined in: ssre/node/types.ts:60
 bindings: SsreBinding[];
 ```
 
-Defined in: ssre/node/types.ts:65
+Defined in: ssr.e/src/ssre/node/types.ts:65
 
 ***
 
@@ -46,7 +46,7 @@ Defined in: ssre/node/types.ts:65
 children: Child[];
 ```
 
-Defined in: ssre/node/types.ts:64
+Defined in: ssr.e/src/ssre/node/types.ts:64
 
 ***
 
@@ -56,7 +56,7 @@ Defined in: ssre/node/types.ts:64
 classList: string[];
 ```
 
-Defined in: ssre/node/types.ts:62
+Defined in: ssr.e/src/ssre/node/types.ts:62
 
 ***
 
@@ -66,7 +66,7 @@ Defined in: ssre/node/types.ts:62
 dataset: Record<string, string>;
 ```
 
-Defined in: ssre/node/types.ts:61
+Defined in: ssr.e/src/ssre/node/types.ts:61
 
 ***
 
@@ -76,7 +76,7 @@ Defined in: ssre/node/types.ts:61
 events: SsreOnBinding[];
 ```
 
-Defined in: ssre/node/types.ts:66
+Defined in: ssr.e/src/ssre/node/types.ts:66
 
 ***
 
@@ -86,7 +86,7 @@ Defined in: ssre/node/types.ts:66
 optional html?: string;
 ```
 
-Defined in: ssre/node/types.ts:69
+Defined in: ssr.e/src/ssre/node/types.ts:69
 
 ***
 
@@ -96,7 +96,7 @@ Defined in: ssre/node/types.ts:69
 optional id?: string;
 ```
 
-Defined in: ssre/node/types.ts:59
+Defined in: ssr.e/src/ssre/node/types.ts:59
 
 ***
 
@@ -106,7 +106,7 @@ Defined in: ssre/node/types.ts:59
 kind: SsreKind;
 ```
 
-Defined in: ssre/node/types.ts:57
+Defined in: ssr.e/src/ssre/node/types.ts:57
 
 ***
 
@@ -116,7 +116,7 @@ Defined in: ssre/node/types.ts:57
 optional mapFn?: (item, index) => Child;
 ```
 
-Defined in: ssre/node/types.ts:68
+Defined in: ssr.e/src/ssre/node/types.ts:68
 
 #### Parameters
 
@@ -140,7 +140,7 @@ Defined in: ssre/node/types.ts:68
 optional source?: any;
 ```
 
-Defined in: ssre/node/types.ts:67
+Defined in: ssr.e/src/ssre/node/types.ts:67
 
 ***
 
@@ -150,7 +150,7 @@ Defined in: ssre/node/types.ts:67
 optional style?: string;
 ```
 
-Defined in: ssre/node/types.ts:63
+Defined in: ssr.e/src/ssre/node/types.ts:63
 
 ***
 
@@ -160,4 +160,4 @@ Defined in: ssre/node/types.ts:63
 optional tag?: string;
 ```
 
-Defined in: ssre/node/types.ts:58
+Defined in: ssr.e/src/ssre/node/types.ts:58

@@ -1,8 +1,8 @@
-**@fest-lib/ssre v0.1.2**
+**@fest-lib/ssre v0.1.3**
 
 ***
 
-# @fest-lib/ssre v0.1.2
+# @fest-lib/ssre v0.1.3
 
 ## Modules
 

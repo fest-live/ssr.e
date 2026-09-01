@@ -1,4 +1,4 @@
-[**@fest-lib/ssre v0.1.2**](../../../../README.md)
+[**@fest-lib/ssre v0.1.3**](../../../../README.md)
 
 ***
 
@@ -6,7 +6,7 @@
 
 # Interface: PageOptions
 
-Defined in: ssre/node/page.ts:23
+Defined in: ssr.e/src/ssre/node/page.ts:23
 
 ## Properties
 
@@ -19,7 +19,7 @@ optional body?:
   | RenderResult;
 ```
 
-Defined in: ssre/node/page.ts:26
+Defined in: ssr.e/src/ssre/node/page.ts:26
 
 ***
 
@@ -29,7 +29,7 @@ Defined in: ssre/node/page.ts:26
 optional channel?: object;
 ```
 
-Defined in: ssre/node/page.ts:31
+Defined in: ssr.e/src/ssre/node/page.ts:31
 
 #### protocol?
 
@@ -51,7 +51,7 @@ url: string;
 optional factory?: (ctx) => Child;
 ```
 
-Defined in: ssre/node/page.ts:32
+Defined in: ssr.e/src/ssre/node/page.ts:32
 
 #### Parameters
 
@@ -71,7 +71,7 @@ Defined in: ssre/node/page.ts:32
 optional head?: string;
 ```
 
-Defined in: ssre/node/page.ts:27
+Defined in: ssr.e/src/ssre/node/page.ts:27
 
 ***
 
@@ -81,7 +81,7 @@ Defined in: ssre/node/page.ts:27
 optional hub?: ReactiveHub;
 ```
 
-Defined in: ssre/node/page.ts:30
+Defined in: ssr.e/src/ssre/node/page.ts:30
 
 ***
 
@@ -91,7 +91,7 @@ Defined in: ssre/node/page.ts:30
 optional lang?: string;
 ```
 
-Defined in: ssre/node/page.ts:25
+Defined in: ssr.e/src/ssre/node/page.ts:25
 
 ***
 
@@ -101,7 +101,7 @@ Defined in: ssre/node/page.ts:25
 optional scripts?: string[];
 ```
 
-Defined in: ssre/node/page.ts:29
+Defined in: ssr.e/src/ssre/node/page.ts:29
 
 ***
 
@@ -111,7 +111,7 @@ Defined in: ssre/node/page.ts:29
 optional styles?: string[];
 ```
 
-Defined in: ssre/node/page.ts:28
+Defined in: ssr.e/src/ssre/node/page.ts:28
 
 ***
 
@@ -121,4 +121,4 @@ Defined in: ssre/node/page.ts:28
 optional title?: string;
 ```
 
-Defined in: ssre/node/page.ts:24
+Defined in: ssr.e/src/ssre/node/page.ts:24

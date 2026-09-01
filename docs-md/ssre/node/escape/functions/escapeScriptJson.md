@@ -1,4 +1,4 @@
-[**@fest-lib/ssre v0.1.2**](../../../../README.md)
+[**@fest-lib/ssre v0.1.3**](../../../../README.md)
 
 ***
 
@@ -10,7 +10,7 @@
 function escapeScriptJson(value): string;
 ```
 
-Defined in: ssre/node/escape.ts:23
+Defined in: ssr.e/src/ssre/node/escape.ts:23
 
 SECURITY: JSON inside <script> must not close the tag.
 

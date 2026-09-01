@@ -1,4 +1,4 @@
-[**@fest-lib/ssre v0.1.2**](../../../../README.md)
+[**@fest-lib/ssre v0.1.3**](../../../../README.md)
 
 ***
 
@@ -6,7 +6,7 @@
 
 # Interface: SsreOnBinding
 
-Defined in: ssre/node/types.ts:42
+Defined in: ssr.e/src/ssre/node/types.ts:42
 
 ## Properties
 
@@ -16,7 +16,7 @@ Defined in: ssre/node/types.ts:42
 action: string;
 ```
 
-Defined in: ssre/node/types.ts:45
+Defined in: ssr.e/src/ssre/node/types.ts:45
 
 ***
 
@@ -26,7 +26,7 @@ Defined in: ssre/node/types.ts:45
 event: string;
 ```
 
-Defined in: ssre/node/types.ts:44
+Defined in: ssr.e/src/ssre/node/types.ts:44
 
 ***
 
@@ -36,4 +36,4 @@ Defined in: ssre/node/types.ts:44
 id: string;
 ```
 
-Defined in: ssre/node/types.ts:43
+Defined in: ssr.e/src/ssre/node/types.ts:43

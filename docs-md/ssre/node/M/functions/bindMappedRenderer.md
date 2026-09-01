@@ -1,4 +1,4 @@
-[**@fest-lib/ssre v0.1.2**](../../../../README.md)
+[**@fest-lib/ssre v0.1.3**](../../../../README.md)
 
 ***
 
@@ -10,7 +10,7 @@
 function bindMappedRenderer(fn): void;
 ```
 
-Defined in: ssre/node/M.ts:50
+Defined in: ssr.e/src/ssre/node/M.ts:50
 
 WHY: M registers a hub renderer without importing render.ts (cycle).
 

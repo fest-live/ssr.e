@@ -1,4 +1,4 @@
-[**@fest-lib/ssre v0.1.2**](../../../../README.md)
+[**@fest-lib/ssre v0.1.3**](../../../../README.md)
 
 ***
 
@@ -10,7 +10,7 @@
 function withContext<T>(ctx, fn): T;
 ```
 
-Defined in: ssre/node/context.ts:77
+Defined in: ssr.e/src/ssre/node/context.ts:77
 
 ## Type Parameters
 

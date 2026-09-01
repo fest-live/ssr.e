@@ -1,4 +1,4 @@
-[**@fest-lib/ssre v0.1.2**](../../../../README.md)
+[**@fest-lib/ssre v0.1.3**](../../../../README.md)
 
 ***
 
@@ -10,7 +10,7 @@
 function isScssSource(source): boolean;
 ```
 
-Defined in: ssre/css/vanilla.ts:29
+Defined in: ssr.e/src/ssre/css/vanilla.ts:29
 
 ## Parameters
 

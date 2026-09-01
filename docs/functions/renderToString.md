@@ -1,4 +1,4 @@
-[**@fest-lib/ssre API Documentation v0.1.2**](../README.md)
+[**@fest-lib/ssre API Documentation v0.1.3**](../README.md)
 
 ***
 
@@ -8,7 +8,7 @@
 
 > **renderToString**(`node`, `hub?`): [`RenderResult`](../interfaces/RenderResult.md)
 
-Defined in: ssre/node/render.ts:69
+Defined in: ssr.e/src/ssre/node/render.ts:69
 
 ## Parameters
 

@@ -1,8 +1,8 @@
-[**@fest-lib/ssre API Documentation v0.1.2**](README.md)
+[**@fest-lib/ssre API Documentation v0.1.3**](README.md)
 
 ***
 
-# @fest-lib/ssre API Documentation v0.1.2
+# @fest-lib/ssre API Documentation v0.1.3
 
 ## Classes
 
@@ -39,7 +39,6 @@
 
 ## Variables
 
-- [affected](variables/affected.md)
 - [$ssreSlot](variables/$ssreSlot.md)
 - [ssre](variables/ssre.md)
 - [escapeAttr](variables/escapeAttr.md)
@@ -52,6 +51,20 @@
 
 ## Functions
 
+- [hasValue](functions/hasValue.md)
+- [deref](functions/deref.md)
+- [getValue](functions/getValue.md)
+- [computed](functions/computed.md)
+- [affected](functions/affected.md)
+- [numberRef](functions/numberRef.md)
+- [stringRef](functions/stringRef.md)
+- [booleanRef](functions/booleanRef.md)
+- [wrapRef](functions/wrapRef.md)
+- [propRef](functions/propRef.md)
+- [$ref](functions/$ref.md)
+- [ref](functions/ref.md)
+- [observe](functions/observe.md)
+- [isObservable](functions/isObservable.md)
 - [widthVariant](functions/widthVariant.md)
 - [srcsetFor](functions/srcsetFor.md)
 - [picture](functions/picture.md)
@@ -99,81 +112,3 @@
 - [encodeSse](functions/encodeSse.md)
 - [parseChannelBody](functions/parseChannelBody.md)
 - [handleChannelPost](functions/handleChannelPost.md)
-
-## References
-
-### booleanRef
-
-Renames and re-exports [affected](variables/affected.md)
-
-***
-
-### computed
-
-Renames and re-exports [affected](variables/affected.md)
-
-***
-
-### deref
-
-Renames and re-exports [affected](variables/affected.md)
-
-***
-
-### getValue
-
-Renames and re-exports [affected](variables/affected.md)
-
-***
-
-### hasValue
-
-Renames and re-exports [affected](variables/affected.md)
-
-***
-
-### isObservable
-
-Renames and re-exports [affected](variables/affected.md)
-
-***
-
-### numberRef
-
-Renames and re-exports [affected](variables/affected.md)
-
-***
-
-### observe
-
-Renames and re-exports [affected](variables/affected.md)
-
-***
-
-### propRef
-
-Renames and re-exports [affected](variables/affected.md)
-
-***
-
-### ref
-
-Renames and re-exports [affected](variables/affected.md)
-
-***
-
-### stringRef
-
-Renames and re-exports [affected](variables/affected.md)
-
-***
-
-### wrapRef
-
-Renames and re-exports [affected](variables/affected.md)
-
-***
-
-### $ref
-
-Renames and re-exports [affected](variables/affected.md)

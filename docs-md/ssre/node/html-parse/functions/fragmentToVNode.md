@@ -1,4 +1,4 @@
-[**@fest-lib/ssre v0.1.2**](../../../../README.md)
+[**@fest-lib/ssre v0.1.3**](../../../../README.md)
 
 ***
 
@@ -10,7 +10,7 @@
 function fragmentToVNode(nodes): VNode;
 ```
 
-Defined in: ssre/node/html-parse.ts:125
+Defined in: ssr.e/src/ssre/node/html-parse.ts:125
 
 ## Parameters
 

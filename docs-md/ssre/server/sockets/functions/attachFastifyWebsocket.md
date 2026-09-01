@@ -1,4 +1,4 @@
-[**@fest-lib/ssre v0.1.2**](../../../../README.md)
+[**@fest-lib/ssre v0.1.3**](../../../../README.md)
 
 ***
 
@@ -14,7 +14,7 @@ function attachFastifyWebsocket(
 ): void;
 ```
 
-Defined in: ssre/server/sockets.ts:35
+Defined in: ssr.e/src/ssre/server/sockets.ts:35
 
 `@fastify/websocket` — `app.get(path, { websocket: true }, ...)`.
 
