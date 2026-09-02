@@ -19,6 +19,7 @@ await build({
             { find: "@fest-lib/ssre", replacement: resolve(root, "src/index.ts") },
             { find: "@fest-lib/object", replacement: resolve(root, "../object.ts/src/index.ts") },
             { find: "@fest-lib/core", replacement: resolve(root, "../core.ts/src/index.ts") },
+            { find: "@fest-lib/uniform/mounted-fs", replacement: resolve(root, "../uniform.ts/src/newer/messaging/MountedFs.ts") },
             { find: "@fest-lib/uniform", replacement: resolve(root, "../uniform.ts/src/index.ts") },
         ],
     },

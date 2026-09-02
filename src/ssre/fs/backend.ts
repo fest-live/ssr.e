@@ -2,6 +2,7 @@
  * Filename: backend.ts
  * FullPath: modules/projects/ssr.e/src/ssre/fs/backend.ts
  * FIND:ssre
+ * TAG:mounted-fs
  *
  * Backend FS analog of LUR.E OPFS helpers — Node paths, not browser OPFS.
  * SECURITY: all relatives resolve under `root`; `..` cannot escape.
@@ -20,6 +21,7 @@ export interface FsRoot {
     exists(rel: string): Promise<boolean>;
     stat(rel: string): Promise<{ size: number; isFile: boolean; isDirectory: boolean }>;
     list(rel?: string): Promise<string[]>;
+    listEntries(rel?: string): Promise<Array<{ name: string; kind: "file" | "directory"; size: number }>>;
     readText(rel: string): Promise<string>;
     writeText(rel: string, text: string): Promise<void>;
     readBytes(rel: string): Promise<Buffer>;
@@ -48,6 +50,22 @@ export const createFsRoot = (root: string): FsRoot => {
         },
         async list(rel = ".") {
             return readdir(resolveSafe(rel));
+        },
+        async listEntries(rel = ".") {
+            const dir = resolveSafe(rel);
+            const names = await readdir(dir);
+            const rows: Array<{ name: string; kind: "file" | "directory"; size: number }> = [];
+            for (const name of names) {
+                try {
+                    const info = await stat(resolve(dir, name));
+                    rows.push({
+                        name,
+                        kind: info.isDirectory() ? "directory" : "file",
+                        size: info.size
+                    });
+                } catch { /* skip vanished */ }
+            }
+            return rows;
         },
         async readText(rel) {
             return readFile(resolveSafe(rel), "utf8");

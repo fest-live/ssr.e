@@ -11,6 +11,16 @@ export { availableHtmlEngines, createHtmlDocument, detectHtmlEngine, setHtmlEngi
 export type { HtmlDocumentHandle, HtmlEngine } from "./ssre/node/html-dom.ts";
 export { createFsRoot } from "./ssre/fs/backend.ts";
 export type { FsRoot } from "./ssre/fs/backend.ts";
+export { createMountedFs, handleMountedFsMessage } from "./ssre/fs/mounts.ts";
+export type { MountSpec, MountedFs } from "./ssre/fs/mounts.ts";
+export {
+    attachMountedFs,
+    attachMountedFsHttp,
+    attachMountedFsWebsocket,
+    listenMountedFsSocketIO,
+    listenMountedFsWs,
+} from "./ssre/server/mounted-fs.ts";
+export type { AttachMountedFsOptions } from "./ssre/server/mounted-fs.ts";
 export { resizeImageBuffer } from "./ssre/assets/canvas.ts";
 export type { ResizeImageOptions } from "./ssre/assets/canvas.ts";
 export {

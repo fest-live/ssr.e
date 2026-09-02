@@ -11,6 +11,8 @@ import { renderToString, renderView } from "../node/render.ts";
 import { createHub, type ReactiveHub } from "../core/store.ts";
 import { attachSse, handleChannelPost, readRequestBody } from "./channel.ts";
 import { attachFastifyWebsocket } from "./sockets.ts";
+import { attachMountedFs, type AttachMountedFsOptions } from "./mounted-fs.ts";
+import { createMountedFs, type MountSpec, type MountedFs } from "../fs/mounts.ts";
 
 export { sendSsre } from "../node/page.ts";
 
@@ -18,6 +20,8 @@ export interface SsrePluginOptions {
     hub?: ReactiveHub;
     prefix?: string;
     channel?: boolean | { path?: string; protocol?: "sse" | "ws" | "socket.io" };
+    /** Allowed Node mounts (`/assets/` → disk). Served over HTTPS + WS / Socket.IO. */
+    fs?: boolean | { mounts?: MountSpec[]; mounted?: MountedFs } & AttachMountedFsOptions;
 }
 
 export type { SsreReplyLike } from "../node/page.ts";
@@ -37,6 +41,15 @@ export const ssrePlugin = (options: SsrePluginOptions = {}) => {
             return sendSsre(this, page, hub);
         });
         app.decorate?.("ssreHub", hub);
+
+        const fsOpt = options.fs;
+        if (fsOpt) {
+            const mounted = typeof fsOpt === "object" && fsOpt.mounted
+                ? fsOpt.mounted
+                : createMountedFs(typeof fsOpt === "object" ? fsOpt.mounts ?? [] : []);
+            app.decorate?.("ssreFs", mounted);
+            attachMountedFs(app, mounted, typeof fsOpt === "object" ? fsOpt : {});
+        }
 
         if (!channelEnabled) return;
 

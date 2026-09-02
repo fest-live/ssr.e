@@ -1,4 +1,4 @@
-[**@fest-lib/ssre v0.1.5**](../../../../README.md)
+[**@fest-lib/ssre v0.1.6**](../../../../README.md)
 
 ***
 
@@ -6,7 +6,7 @@
 
 # Interface: FsRoot
 
-Defined in: ssr.e/src/ssre/fs/backend.ts:17
+Defined in: ssr.e/src/ssre/fs/backend.ts:18
 
 ## Properties
 
@@ -16,7 +16,7 @@ Defined in: ssr.e/src/ssre/fs/backend.ts:17
 root: string;
 ```
 
-Defined in: ssr.e/src/ssre/fs/backend.ts:18
+Defined in: ssr.e/src/ssre/fs/backend.ts:19
 
 ## Methods
 
@@ -26,7 +26,7 @@ Defined in: ssr.e/src/ssre/fs/backend.ts:18
 exists(rel): Promise<boolean>;
 ```
 
-Defined in: ssr.e/src/ssre/fs/backend.ts:20
+Defined in: ssr.e/src/ssre/fs/backend.ts:21
 
 #### Parameters
 
@@ -46,7 +46,7 @@ Defined in: ssr.e/src/ssre/fs/backend.ts:20
 list(rel?): Promise<string[]>;
 ```
 
-Defined in: ssr.e/src/ssre/fs/backend.ts:22
+Defined in: ssr.e/src/ssre/fs/backend.ts:23
 
 #### Parameters
 
@@ -60,13 +60,33 @@ Defined in: ssr.e/src/ssre/fs/backend.ts:22
 
 ***
 
+### listEntries()
+
+```ts
+listEntries(rel?): Promise<object[]>;
+```
+
+Defined in: ssr.e/src/ssre/fs/backend.ts:24
+
+#### Parameters
+
+##### rel?
+
+`string`
+
+#### Returns
+
+`Promise`\<`object`[]\>
+
+***
+
 ### mkdir()
 
 ```ts
 mkdir(rel): Promise<void>;
 ```
 
-Defined in: ssr.e/src/ssre/fs/backend.ts:27
+Defined in: ssr.e/src/ssre/fs/backend.ts:29
 
 #### Parameters
 
@@ -86,7 +106,7 @@ Defined in: ssr.e/src/ssre/fs/backend.ts:27
 readBytes(rel): Promise<Buffer<ArrayBufferLike>>;
 ```
 
-Defined in: ssr.e/src/ssre/fs/backend.ts:25
+Defined in: ssr.e/src/ssre/fs/backend.ts:27
 
 #### Parameters
 
@@ -106,7 +126,7 @@ Defined in: ssr.e/src/ssre/fs/backend.ts:25
 readText(rel): Promise<string>;
 ```
 
-Defined in: ssr.e/src/ssre/fs/backend.ts:23
+Defined in: ssr.e/src/ssre/fs/backend.ts:25
 
 #### Parameters
 
@@ -126,7 +146,7 @@ Defined in: ssr.e/src/ssre/fs/backend.ts:23
 remove(rel): Promise<void>;
 ```
 
-Defined in: ssr.e/src/ssre/fs/backend.ts:28
+Defined in: ssr.e/src/ssre/fs/backend.ts:30
 
 #### Parameters
 
@@ -146,7 +166,7 @@ Defined in: ssr.e/src/ssre/fs/backend.ts:28
 resolve(rel): string;
 ```
 
-Defined in: ssr.e/src/ssre/fs/backend.ts:19
+Defined in: ssr.e/src/ssre/fs/backend.ts:20
 
 #### Parameters
 
@@ -170,7 +190,7 @@ stat(rel): Promise<{
 }>;
 ```
 
-Defined in: ssr.e/src/ssre/fs/backend.ts:21
+Defined in: ssr.e/src/ssre/fs/backend.ts:22
 
 #### Parameters
 
@@ -194,7 +214,7 @@ Defined in: ssr.e/src/ssre/fs/backend.ts:21
 writeBytes(rel, data): Promise<void>;
 ```
 
-Defined in: ssr.e/src/ssre/fs/backend.ts:26
+Defined in: ssr.e/src/ssre/fs/backend.ts:28
 
 #### Parameters
 
@@ -218,7 +238,7 @@ Defined in: ssr.e/src/ssre/fs/backend.ts:26
 writeText(rel, text): Promise<void>;
 ```
 
-Defined in: ssr.e/src/ssre/fs/backend.ts:24
+Defined in: ssr.e/src/ssre/fs/backend.ts:26
 
 #### Parameters
 

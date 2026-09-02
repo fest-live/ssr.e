@@ -1,4 +1,4 @@
-[**@fest-lib/ssre v0.1.5**](../README.md)
+[**@fest-lib/ssre v0.1.6**](../README.md)
 
 ***
 
@@ -47,6 +47,30 @@ Re-exports [applyCustomPropertyFallbacks](../ssre/css/vanilla/functions/applyCus
 ### attachFastifyWebsocket
 
 Re-exports [attachFastifyWebsocket](../ssre/server/sockets/functions/attachFastifyWebsocket.md)
+
+***
+
+### attachMountedFs
+
+Re-exports [attachMountedFs](../ssre/server/mounted-fs/functions/attachMountedFs.md)
+
+***
+
+### attachMountedFsHttp
+
+Re-exports [attachMountedFsHttp](../ssre/server/mounted-fs/functions/attachMountedFsHttp.md)
+
+***
+
+### AttachMountedFsOptions
+
+Re-exports [AttachMountedFsOptions](../ssre/server/mounted-fs/type-aliases/AttachMountedFsOptions.md)
+
+***
+
+### attachMountedFsWebsocket
+
+Re-exports [attachMountedFsWebsocket](../ssre/server/mounted-fs/functions/attachMountedFsWebsocket.md)
 
 ***
 
@@ -149,6 +173,12 @@ Re-exports [createHtmlDocument](../ssre/node/html-dom/functions/createHtmlDocume
 ### createHub
 
 Re-exports [createHub](../ssre/core/store/functions/createHub.md)
+
+***
+
+### createMountedFs
+
+Re-exports [createMountedFs](../ssre/fs/mounts/functions/createMountedFs.md)
 
 ***
 
@@ -263,6 +293,12 @@ Re-exports [H](../ssre/node/H/functions/H.md)
 ### handleChannelPost
 
 Re-exports [handleChannelPost](../ssre/server/protocol/functions/handleChannelPost.md)
+
+***
+
+### handleMountedFsMessage
+
+Re-exports [handleMountedFsMessage](../ssre/fs/mounts/functions/handleMountedFsMessage.md)
 
 ***
 
@@ -386,6 +422,18 @@ Re-exports [jsxs](../ssre/node/jsx-runtime/variables/jsxs.md)
 
 ***
 
+### listenMountedFsSocketIO
+
+Re-exports [listenMountedFsSocketIO](../ssre/server/mounted-fs/functions/listenMountedFsSocketIO.md)
+
+***
+
+### listenMountedFsWs
+
+Re-exports [listenMountedFsWs](../ssre/server/mounted-fs/functions/listenMountedFsWs.md)
+
+***
+
 ### listenWithSocketIO
 
 Re-exports [listenWithSocketIO](../ssre/server/sockets/functions/listenWithSocketIO.md)
@@ -401,6 +449,18 @@ Re-exports [listenWithWs](../ssre/server/sockets/functions/listenWithWs.md)
 ### M
 
 Re-exports [M](../ssre/node/M/functions/M.md)
+
+***
+
+### MountedFs
+
+Re-exports [MountedFs](../ssre/fs/mounts/type-aliases/MountedFs.md)
+
+***
+
+### MountSpec
+
+Re-exports [MountSpec](../ssre/fs/mounts/type-aliases/MountSpec.md)
 
 ***
 

@@ -1,4 +1,4 @@
-[**@fest-lib/ssre v0.1.5**](../../../../README.md)
+[**@fest-lib/ssre v0.1.6**](../../../../README.md)
 
 ***
 
@@ -10,7 +10,7 @@
 function createFsRoot(root): FsRoot;
 ```
 
-Defined in: ssr.e/src/ssre/fs/backend.ts:31
+Defined in: ssr.e/src/ssre/fs/backend.ts:33
 
 ## Parameters
 

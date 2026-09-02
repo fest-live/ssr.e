@@ -1,4 +1,4 @@
-[**@fest-lib/ssre v0.1.5**](../../../../README.md)
+[**@fest-lib/ssre v0.1.6**](../../../../README.md)
 
 ***
 
@@ -6,7 +6,7 @@
 
 # Interface: SsrePluginOptions
 
-Defined in: ssr.e/src/ssre/server/fastify.ts:17
+Defined in: ssr.e/src/ssre/server/fastify.ts:19
 
 ## Properties
 
@@ -21,7 +21,21 @@ optional channel?:
 };
 ```
 
-Defined in: ssr.e/src/ssre/server/fastify.ts:20
+Defined in: ssr.e/src/ssre/server/fastify.ts:22
+
+***
+
+### fs?
+
+```ts
+optional fs?: 
+  | boolean
+  | object & AttachMountedFsOptions;
+```
+
+Defined in: ssr.e/src/ssre/server/fastify.ts:24
+
+Allowed Node mounts (`/assets/` → disk). Served over HTTPS + WS / Socket.IO.
 
 ***
 
@@ -31,7 +45,7 @@ Defined in: ssr.e/src/ssre/server/fastify.ts:20
 optional hub?: ReactiveHub;
 ```
 
-Defined in: ssr.e/src/ssre/server/fastify.ts:18
+Defined in: ssr.e/src/ssre/server/fastify.ts:20
 
 ***
 
@@ -41,4 +55,4 @@ Defined in: ssr.e/src/ssre/server/fastify.ts:18
 optional prefix?: string;
 ```
 
-Defined in: ssr.e/src/ssre/server/fastify.ts:19
+Defined in: ssr.e/src/ssre/server/fastify.ts:21

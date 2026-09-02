@@ -1,8 +1,8 @@
-**@fest-lib/ssre v0.1.5**
+**@fest-lib/ssre v0.1.6**
 
 ***
 
-# @fest-lib/ssre v0.1.5
+# @fest-lib/ssre v0.1.6
 
 ## Modules
 
@@ -18,6 +18,7 @@
 - [ssre/css/vanilla](ssre/css/vanilla/README.md)
 - [ssre/css/vars](ssre/css/vars/README.md)
 - [ssre/fs/backend](ssre/fs/backend/README.md)
+- [ssre/fs/mounts](ssre/fs/mounts/README.md)
 - [ssre/node/context](ssre/node/context/README.md)
 - [ssre/node/E](ssre/node/E/README.md)
 - [ssre/node/escape](ssre/node/escape/README.md)
@@ -33,6 +34,7 @@
 - [ssre/node/types](ssre/node/types/README.md)
 - [ssre/server/channel](ssre/server/channel/README.md)
 - [ssre/server/fastify](ssre/server/fastify/README.md)
+- [ssre/server/mounted-fs](ssre/server/mounted-fs/README.md)
 - [ssre/server/protocol](ssre/server/protocol/README.md)
 - [ssre/server/sockets](ssre/server/sockets/README.md)
 - [ssre/vite/plugin](ssre/vite/plugin/README.md)

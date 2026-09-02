@@ -1,4 +1,4 @@
-[**@fest-lib/ssre v0.1.5**](../../../../README.md)
+[**@fest-lib/ssre v0.1.6**](../../../../README.md)
 
 ***
 
@@ -10,7 +10,7 @@
 function ssrePlugin(options?): (app) => Promise<void>;
 ```
 
-Defined in: ssr.e/src/ssre/server/fastify.ts:25
+Defined in: ssr.e/src/ssre/server/fastify.ts:29
 
 ## Parameters
 
