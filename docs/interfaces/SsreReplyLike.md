@@ -1,4 +1,4 @@
-[**@fest-lib/ssre API Documentation v0.1.3**](../README.md)
+[**@fest-lib/ssre API Documentation v0.1.4**](../README.md)
 
 ***
 
@@ -6,7 +6,7 @@
 
 # Interface: SsreReplyLike
 
-Defined in: ssr.e/src/ssre/node/page.ts:17
+Defined in: ssr.e/src/ssre/node/page.ts:19
 
 ## Properties
 
@@ -14,7 +14,7 @@ Defined in: ssr.e/src/ssre/node/page.ts:17
 
 > **type**: (`contentType`) => `SsreReplyLike`
 
-Defined in: ssr.e/src/ssre/node/page.ts:18
+Defined in: ssr.e/src/ssre/node/page.ts:20
 
 #### Parameters
 
@@ -32,7 +32,7 @@ Defined in: ssr.e/src/ssre/node/page.ts:18
 
 > `optional` **header?**: (`name`, `value`) => `SsreReplyLike`
 
-Defined in: ssr.e/src/ssre/node/page.ts:19
+Defined in: ssr.e/src/ssre/node/page.ts:21
 
 #### Parameters
 
@@ -54,7 +54,7 @@ Defined in: ssr.e/src/ssre/node/page.ts:19
 
 > **send**: (`payload`) => `any`
 
-Defined in: ssr.e/src/ssre/node/page.ts:20
+Defined in: ssr.e/src/ssre/node/page.ts:22
 
 #### Parameters
 

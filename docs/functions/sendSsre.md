@@ -1,4 +1,4 @@
-[**@fest-lib/ssre API Documentation v0.1.3**](../README.md)
+[**@fest-lib/ssre API Documentation v0.1.4**](../README.md)
 
 ***
 
@@ -8,7 +8,7 @@
 
 > **sendSsre**(`reply`, `page`, `hub?`): `any`
 
-Defined in: ssr.e/src/ssre/node/page.ts:71
+Defined in: ssr.e/src/ssre/node/page.ts:87
 
 ## Parameters
 

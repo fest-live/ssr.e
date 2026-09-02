@@ -1,4 +1,4 @@
-[**@fest-lib/ssre v0.1.3**](../../../../README.md)
+[**@fest-lib/ssre v0.1.4**](../../../../README.md)
 
 ***
 
@@ -6,7 +6,7 @@
 
 # Interface: SsreViteOptions
 
-Defined in: ssr.e/src/ssre/vite/plugin.ts:14
+Defined in: ssr.e/src/ssre/vite/plugin.ts:16
 
 ## Properties
 
@@ -16,7 +16,29 @@ Defined in: ssr.e/src/ssre/vite/plugin.ts:14
 optional channelPath?: string;
 ```
 
-Defined in: ssr.e/src/ssre/vite/plugin.ts:17
+Defined in: ssr.e/src/ssre/vite/plugin.ts:22
+
+***
+
+### htmlAsBase?
+
+```ts
+optional htmlAsBase?: boolean;
+```
+
+Defined in: ssr.e/src/ssre/vite/plugin.ts:20
+
+Default true: keep existing HTML documents; inject scenario via transformIndexHtml.
+
+***
+
+### htmlPages?
+
+```ts
+optional htmlPages?: Record<string, string>;
+```
+
+Defined in: ssr.e/src/ssre/vite/plugin.ts:18
 
 ***
 
@@ -26,7 +48,19 @@ Defined in: ssr.e/src/ssre/vite/plugin.ts:17
 optional hub?: ReactiveHub;
 ```
 
-Defined in: ssr.e/src/ssre/vite/plugin.ts:16
+Defined in: ssr.e/src/ssre/vite/plugin.ts:21
+
+***
+
+### injectOnBuild?
+
+```ts
+optional injectOnBuild?: boolean;
+```
+
+Defined in: ssr.e/src/ssre/vite/plugin.ts:24
+
+Default false — Capacitor / VDS HTML must not grow a stray EventSource.
 
 ***
 
@@ -36,4 +70,4 @@ Defined in: ssr.e/src/ssre/vite/plugin.ts:16
 optional pages?: Record<string, string>;
 ```
 
-Defined in: ssr.e/src/ssre/vite/plugin.ts:15
+Defined in: ssr.e/src/ssre/vite/plugin.ts:17

@@ -1,4 +1,4 @@
-[**@fest-lib/ssre v0.1.3**](../../../README.md)
+[**@fest-lib/ssre v0.1.4**](../../../README.md)
 
 ***
 

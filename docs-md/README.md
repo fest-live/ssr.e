@@ -1,8 +1,8 @@
-**@fest-lib/ssre v0.1.3**
+**@fest-lib/ssre v0.1.4**
 
 ***
 
-# @fest-lib/ssre v0.1.3
+# @fest-lib/ssre v0.1.4
 
 ## Modules
 
@@ -22,6 +22,7 @@
 - [ssre/node/E](ssre/node/E/README.md)
 - [ssre/node/escape](ssre/node/escape/README.md)
 - [ssre/node/H](ssre/node/H/README.md)
+- [ssre/node/html-document](ssre/node/html-document/README.md)
 - [ssre/node/html-dom](ssre/node/html-dom/README.md)
 - [ssre/node/html-parse](ssre/node/html-parse/README.md)
 - [ssre/node/icon](ssre/node/icon/README.md)

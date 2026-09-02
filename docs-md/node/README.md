@@ -1,4 +1,4 @@
-[**@fest-lib/ssre v0.1.3**](../README.md)
+[**@fest-lib/ssre v0.1.4**](../README.md)
 
 ***
 
@@ -320,6 +320,30 @@ Re-exports [IconParams](../ssre/node/icon/interfaces/IconParams.md)
 
 ***
 
+### injectSsreIntoHtml
+
+Re-exports [injectSsreIntoHtml](../ssre/node/html-document/functions/injectSsreIntoHtml.md)
+
+***
+
+### InjectSsreOptions
+
+Re-exports [InjectSsreOptions](../ssre/node/html-document/interfaces/InjectSsreOptions.md)
+
+***
+
+### isHtmlDocument
+
+Re-exports [isHtmlDocument](../ssre/node/html-document/functions/isHtmlDocument.md)
+
+***
+
+### isHtmlPageFile
+
+Re-exports [isHtmlPageFile](../ssre/node/html-document/functions/isHtmlPageFile.md)
+
+***
+
 ### isObservable
 
 Re-exports [isObservable](../index/functions/isObservable.md)
@@ -398,9 +422,21 @@ Re-exports [observe](../index/functions/observe.md)
 
 ***
 
+### pageFromHtml
+
+Re-exports [pageFromHtml](../ssre/node/page/functions/pageFromHtml.md)
+
+***
+
 ### PageOptions
 
 Re-exports [PageOptions](../ssre/node/page/interfaces/PageOptions.md)
+
+***
+
+### pageOptionsFromHtml
+
+Re-exports [pageOptionsFromHtml](../ssre/node/html-document/functions/pageOptionsFromHtml.md)
 
 ***
 

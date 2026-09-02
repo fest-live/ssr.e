@@ -1,8 +1,8 @@
-[**@fest-lib/ssre API Documentation v0.1.3**](README.md)
+[**@fest-lib/ssre API Documentation v0.1.4**](README.md)
 
 ***
 
-# @fest-lib/ssre API Documentation v0.1.3
+# @fest-lib/ssre API Documentation v0.1.4
 
 ## Classes
 
@@ -13,6 +13,7 @@
 
 - [PictureOptions](interfaces/PictureOptions.md)
 - [SsreSlot](interfaces/SsreSlot.md)
+- [InjectSsreOptions](interfaces/InjectSsreOptions.md)
 - [IconParams](interfaces/IconParams.md)
 - [SsreReplyLike](interfaces/SsreReplyLike.md)
 - [PageOptions](interfaces/PageOptions.md)
@@ -96,6 +97,10 @@
 - [createContext](functions/createContext.md)
 - [escapeHtml](functions/escapeHtml.md)
 - [escapeScriptJson](functions/escapeScriptJson.md)
+- [isHtmlPageFile](functions/isHtmlPageFile.md)
+- [isHtmlDocument](functions/isHtmlDocument.md)
+- [injectSsreIntoHtml](functions/injectSsreIntoHtml.md)
+- [pageOptionsFromHtml](functions/pageOptionsFromHtml.md)
 - [parseBuiltin](functions/parseBuiltin.md)
 - [parseHtmlFragment](functions/parseHtmlFragment.md)
 - [fragmentToVNode](functions/fragmentToVNode.md)
@@ -103,6 +108,7 @@
 - [jsx](functions/jsx.md)
 - [createElement](functions/createElement.md)
 - [renderPage](functions/renderPage.md)
+- [pageFromHtml](functions/pageFromHtml.md)
 - [sendSsre](functions/sendSsre.md)
 - [renderChildren](functions/renderChildren.md)
 - [renderNode](functions/renderNode.md)
