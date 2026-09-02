@@ -1,4 +1,4 @@
-[**@fest-lib/ssre v0.1.4**](../../README.md)
+[**@fest-lib/ssre v0.1.5**](../../README.md)
 
 ***
 
@@ -10,7 +10,7 @@
 function stringRef(initial?, behavior?): any;
 ```
 
-Defined in: object.ts/src/core/Primitives.ts:47
+Defined in: object.ts/src/core/Primitives.ts:51
 
 String ref with coercion, primitive conversion hooks, and optional promise initialization.
 

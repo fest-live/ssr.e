@@ -1,4 +1,4 @@
-[**@fest-lib/ssre API Documentation v0.1.4**](../README.md)
+[**@fest-lib/ssre API Documentation v0.1.5**](../README.md)
 
 ***
 
@@ -8,7 +8,7 @@
 
 > **ref**\<`T`\>(`typed`, `prop?`, `behavior?`): `T` *extends* `symbol` \| `object` \| `Function` ? `observeValid`\<`T`\> \| `refType`\<`T`\> : `refType`\<`T`\> & `T` *extends* `symbol` \| `object` \| `Function` ? `T` : `any`
 
-Defined in: object.ts/src/core/Primitives.ts:239
+Defined in: object.ts/src/core/Primitives.ts:256
 
 Public ref helper that can either wrap a value or target one specific property.
 

@@ -1,4 +1,4 @@
-[**@fest-lib/ssre API Documentation v0.1.4**](../README.md)
+[**@fest-lib/ssre API Documentation v0.1.5**](../README.md)
 
 ***
 
@@ -8,7 +8,7 @@
 
 > **numberRef**(`initial?`, `behavior?`): `any`
 
-Defined in: object.ts/src/core/Primitives.ts:32
+Defined in: object.ts/src/core/Primitives.ts:31
 
 Numeric ref with coercion, primitive conversion hooks, and optional promise initialization.
 

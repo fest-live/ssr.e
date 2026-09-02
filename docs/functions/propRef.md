@@ -1,4 +1,4 @@
-[**@fest-lib/ssre API Documentation v0.1.4**](../README.md)
+[**@fest-lib/ssre API Documentation v0.1.5**](../README.md)
 
 ***
 
@@ -8,7 +8,7 @@
 
 > **propRef**\<`T`\>(`src`, `srcProp?`, `initial?`, `behavior?`): `any`
 
-Defined in: object.ts/src/core/Primitives.ts:117
+Defined in: object.ts/src/core/Primitives.ts:134
 
 Create a reactive reference to one property/slot of an observable source.
 

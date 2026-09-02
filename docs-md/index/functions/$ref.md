@@ -1,4 +1,4 @@
-[**@fest-lib/ssre v0.1.4**](../../README.md)
+[**@fest-lib/ssre v0.1.5**](../../README.md)
 
 ***
 
@@ -10,7 +10,7 @@
 function $ref<T>(typed, behavior?): T extends symbol | object | Function ? observeValid<T> | refType<T> : refType<T>;
 ```
 
-Defined in: object.ts/src/core/Primitives.ts:228
+Defined in: object.ts/src/core/Primitives.ts:245
 
 Pick the most suitable ref implementation for the provided value type.
 
