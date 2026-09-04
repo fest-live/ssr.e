@@ -1,8 +1,8 @@
-[**@fest-lib/ssre API Documentation v0.1.7**](README.md)
+[**@fest-lib/ssre API Documentation v0.1.8**](README.md)
 
 ***
 
-# @fest-lib/ssre API Documentation v0.1.7
+# @fest-lib/ssre API Documentation v0.1.8
 
 ## Classes
 
