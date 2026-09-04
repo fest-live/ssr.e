@@ -1,4 +1,4 @@
-**@fest-lib/ssre API Documentation v0.1.9**
+**@fest-lib/ssre API Documentation v0.1.10**
 
 ***
 
