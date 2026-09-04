@@ -1,7 +1,7 @@
 {
     "name": "@fest-lib/ssre",
     "description": "fest-lib SSR.E: backend-first H/E HTML, object.ts reactivity, Fastify + channel",
-    "version": "0.1.11",
+    "version": "0.1.12",
     "license": "BSD-3-Clause",
     "type": "module",
     "sideEffects": false,
