@@ -1,4 +1,4 @@
-[**@fest-lib/ssre API Documentation v0.1.11**](../README.md)
+[**@fest-lib/ssre API Documentation v0.1.12**](../README.md)
 
 ***
 
