@@ -1,10 +1,10 @@
-**@fest-lib/ssre API Documentation v0.1.12**
+**@fest-lib/ssre API Documentation v0.1.14**
 
 ***
 
 # ssr.e
 
-Backend-first sibling of [LUR.E](_media/lur.e). Same `H` / `E` / `M` ideas and `object.ts` refs, but it renders **HTML on the server** with a scripted reactive scenario — no DOM, overlays, drag, or other client-only LUR.E features.
+Backend-first sibling of [LUR.E](https://github.com/fest-live/lur.e). Same `H` / `E` / `M` ideas and `object.ts` refs, but it renders **HTML on the server** with a scripted reactive scenario — no DOM, overlays, drag, or other client-only LUR.E features.
 
 Optional frontend: load LUR.E / FL-UI / app modules after the page. Live updates go through SSE (default), WebSocket, or socket.io; the envelope is the same shape `uniform.ts` already proxies.
 
