@@ -1,4 +1,4 @@
-[**@fest-lib/ssre API Documentation v0.1.16**](../README.md)
+[**@fest-lib/ssre API Documentation v0.1.17**](../README.md)
 
 ***
 
@@ -8,7 +8,7 @@
 
 > **observe**\<`T`\>(`target`, `stateName?`): `observeValid`\<`T`\>
 
-Defined in: object.ts/src/core/Primitives.ts:305
+Defined in: object.ts/src/core/Primitives.ts:320
 
 `function` (not `const`) so circular Mainline ↔ Primitives/Assigned init cannot TDZ in bundled output.
 

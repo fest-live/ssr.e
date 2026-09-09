@@ -1,4 +1,4 @@
-[**@fest-lib/ssre v0.1.16**](../../README.md)
+[**@fest-lib/ssre v0.1.17**](../../README.md)
 
 ***
 
@@ -15,7 +15,7 @@ function propRef<T>(
 ): any;
 ```
 
-Defined in: object.ts/src/core/Primitives.ts:134
+Defined in: object.ts/src/core/Primitives.ts:133
 
 Create a reactive reference to one property/slot of an observable source.
 
@@ -29,8 +29,7 @@ Supported sources:
 
 Also accepts `[map|set, key]` pair form (same shape as `affected()`).
 
-WHY (Set → boolean): observable object `fallThrough` maps `null`/`undefined`
-`.value` back to the wrapper itself, so absence must be a real primitive (`false`).
+Set slot: present → the member key; absent → `null` (not a comparison bool).
 
 ## Type Parameters
 

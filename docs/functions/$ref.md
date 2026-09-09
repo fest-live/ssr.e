@@ -1,4 +1,4 @@
-[**@fest-lib/ssre API Documentation v0.1.16**](../README.md)
+[**@fest-lib/ssre API Documentation v0.1.17**](../README.md)
 
 ***
 
@@ -8,7 +8,7 @@
 
 > **$ref**\<`T`\>(`typed`, `behavior?`): `T` *extends* `symbol` \| `object` \| `Function` ? `observeValid`\<`T`\> \| `refType`\<`T`\> : `refType`\<`T`\>
 
-Defined in: object.ts/src/core/Primitives.ts:245
+Defined in: object.ts/src/core/Primitives.ts:260
 
 Pick the most suitable ref implementation for the provided value type.
 
