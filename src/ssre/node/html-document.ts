@@ -29,7 +29,7 @@ export const isHtmlDocument = (html = ""): boolean => {
     return /^<!doctype\s+html/i.test(start) || /^<html[\s>]/i.test(start);
 };
 
-const insertBeforeLast = (html: string, tag: string, block: string): string | null => {
+const moveBeforeLast = (html: string, tag: string, block: string): string | null => {
     const idx = html.toLowerCase().lastIndexOf(tag.toLowerCase());
     if (idx < 0) return null;
     return html.slice(0, idx) + block + html.slice(idx);
@@ -43,7 +43,7 @@ export const injectSsreIntoHtml = (html: string, options: InjectSsreOptions = {}
     let out = html;
     if (options.viteClient && !out.includes("/@vite/client")) {
         const tag = `<script type="module" src="/@vite/client"></script>\n`;
-        out = insertBeforeLast(out, "</head>", tag) ?? `${tag}${out}`;
+        out = moveBeforeLast(out, "</head>", tag) ?? `${tag}${out}`;
     }
     if (out.includes('id="ssre-scenario"')) return out;
     const scenario: Record<string, unknown> = { ...(options.scenario ?? {}) };
@@ -51,8 +51,8 @@ export const injectSsreIntoHtml = (html: string, options: InjectSsreOptions = {}
         scenario.channel = { url: options.channelUrl, protocol: options.protocol ?? "sse" };
     }
     const block = `<script type="application/json" id="ssre-scenario">${escapeScriptJson(scenario)}</script>\n<script>${runtimeScript()}</script>\n`;
-    return insertBeforeLast(out, "</body>", block)
-        ?? insertBeforeLast(out, "</html>", block)
+    return moveBeforeLast(out, "</body>", block)
+        ?? moveBeforeLast(out, "</html>", block)
         ?? `${out}\n${block}`;
 };
 
